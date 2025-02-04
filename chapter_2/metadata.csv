@@ -1,0 +1,881 @@
+#,Study,Arch.,Pipeline (basis),Implementation,Mono/multi,Input type,Model note,Source lang family,Source lang,Total source lang (min),Total source lang (utterances),Source data,Target lang family,Target lang,Target lang (minutes),Target lang (utterances),Target data,Combined data,Data rate (target/combied),Metric,Criterion,Type,Value
+1,A,S2S,Tacotron 2,ESPNet,Mono,Character,,Indo-Aryan,,,,0.0,Indo-Aryan,Bengali,300,,14.4,14.4,1.0,MCD,Acoustics,O,7.305
+2,A,S2S,Tacotron 2,ESPNet,Mono,Character,,Indo-Aryan,,,,0.0,Indo-Aryan,Hindi,300,,14.4,14.4,1.0,MCD,Acoustics,O,7.789
+3,A,S2S,Tacotron 2,ESPNet,Mono,Character,,Indo-Aryan,,,,0.0,Indo-Aryan,Odia,300,,14.4,14.4,1.0,MCD,Acoustics,O,7.501
+4,A,S2S,Tacotron 2,ESPNet,Mono,Character,,Indo-Aryan,,,,0.0,Indo-Aryan,Rajasthani,300,,14.4,14.4,1.0,MCD,Acoustics,O,7.049
+5,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Bengali,300,,14.4,57.6,0.25,MCD,Acoustics,O,7.424
+6,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Hindi,300,,14.4,57.6,0.25,MCD,Acoustics,O,7.968
+7,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Odia,300,,14.4,57.6,0.25,MCD,Acoustics,O,7.525
+8,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Rajasthani,300,,14.4,57.6,0.25,MCD,Acoustics,O,6.999
+9,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Bengali,300,,14.4,57.6,0.25,MCD,Acoustics,O,7.437
+10,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Hindi,300,,14.4,57.6,0.25,MCD,Acoustics,O,7.664
+11,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Odia,300,,14.4,57.6,0.25,MCD,Acoustics,O,7.418
+12,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Rajasthani,300,,14.4,57.6,0.25,MCD,Acoustics,O,6.606
+13,A,S2S,Tacotron 2,ESPNet,Mono,Phone,,Dravidian,,,,0.0,Dravidian,Kannada,300,,14.4,14.4,1.0,MCD,Acoustics,O,8.297
+14,A,S2S,Tacotron 2,ESPNet,Mono,Phone,,Dravidian,,,,0.0,Dravidian,Malayalam,300,,14.4,14.4,1.0,MCD,Acoustics,O,7.562
+15,A,S2S,Tacotron 2,ESPNet,Mono,Phone,,Dravidian,,,,0.0,Dravidian,Telugu,300,,14.4,14.4,1.0,MCD,Acoustics,O,8.621
+16,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic,Dravidian,,600.0,,28.8,Dravidian,Kannada,300,,14.4,43.2,0.3333333333333333,MCD,Acoustics,O,8.269
+17,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic,Dravidian,,600.0,,28.8,Dravidian,Malayalam,300,,14.4,43.2,0.3333333333333333,MCD,Acoustics,O,7.723
+18,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic,Dravidian,,600.0,,28.8,Dravidian,Telugu,300,,14.4,43.2,0.3333333333333333,MCD,Acoustics,O,9.282
+19,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Kannada,300,,14.4,43.2,0.3333333333333333,MCD,Acoustics,O,7.935
+20,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Malayalam,300,,14.4,43.2,0.3333333333333333,MCD,Acoustics,O,7.402
+21,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Telugu,300,,14.4,43.2,0.3333333333333333,MCD,Acoustics,O,8.619
+22,A,S2S,Tacotron 2,ESPNet,Mono,Character,,Indo-Aryan,,,,0.0,Indo-Aryan,Gujarati,30,,1.44,1.44,1.0,MCD,Acoustics,O,11.24
+23,A,S2S,Tacotron 2,ESPNet,Mono,Character,,Indo-Aryan,,,,0.0,Indo-Aryan,Gujarati,15,,0.72,0.72,1.0,MCD,Acoustics,O,10.968
+24,A,S2S,Tacotron 2,ESPNet,Mono,Character,,Indo-Aryan,,,,0.0,Indo-Aryan,Gujarati,7,,0.336,0.336,1.0,MCD,Acoustics,O,10.888
+25,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,30,,1.44,44.64,0.03225806451612903,MCD,Acoustics,O,7.592
+26,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,15,,0.72,43.92,0.016393442622950817,MCD,Acoustics,O,7.584
+27,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,7,,0.336,43.536,0.007717750826901875,MCD,Acoustics,O,7.567
+28,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,30,,1.44,44.64,0.03225806451612903,MCD,Acoustics,O,7.486
+29,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,15,,0.72,43.92,0.016393442622950817,MCD,Acoustics,O,7.505
+30,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,7,,0.336,43.536,0.007717750826901875,MCD,Acoustics,O,7.538
+31,A,S2S,Tacotron 2,ESPNet,Mono,Phone,,Dravidian,,,,0.0,Dravidian,Tamil,30,,1.44,1.44,1.0,MCD,Acoustics,O,10.534
+32,A,S2S,Tacotron 2,ESPNet,Mono,Phone,,Dravidian,,,,0.0,Dravidian,Tamil,15,,0.72,0.72,1.0,MCD,Acoustics,O,10.02
+33,A,S2S,Tacotron 2,ESPNet,Mono,Phone,,Dravidian,,,,0.0,Dravidian,Tamil,7,,0.336,0.336,1.0,MCD,Acoustics,O,10.471
+34,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic,Dravidian,,600.0,,28.8,Dravidian,Tamil,30,,1.44,30.240000000000002,0.047619047619047616,MCD,Acoustics,O,8.301
+35,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic,Dravidian,,600.0,,28.8,Dravidian,Tamil,15,,0.72,29.52,0.024390243902439025,MCD,Acoustics,O,8.276
+36,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic,Dravidian,,600.0,,28.8,Dravidian,Tamil,7,,0.336,29.136,0.011532125205930808,MCD,Acoustics,O,8.503
+37,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Tamil,30,,1.44,30.240000000000002,0.047619047619047616,MCD,Acoustics,O,8.231
+38,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Tamil,15,,0.72,29.52,0.024390243902439025,MCD,Acoustics,O,8.451
+39,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Tamil,7,,0.336,29.136,0.011532125205930808,MCD,Acoustics,O,8.494
+40,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,7,,0.336,43.536,0.007717750826901875,DMOS,Similarity,S,4.41
+41,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Tamil,7,,0.336,29.136,0.011532125205930808,DMOS,Similarity,S,3.54
+42,A,S2S,Tacotron 2,ESPNet,Multi,Character,Generic with speaker embedding,Indo-Aryan,,900.0,,43.2,Indo-Aryan,Gujarati,7,,0.336,43.536,0.007717750826901875,Speaker similarity,,,3.95
+43,A,S2S,Tacotron 2,ESPNet,Multi,Phone,Generic with speaker embedding,Dravidian,,600.0,,28.8,Dravidian,Tamil,7,,0.336,29.136,0.011532125205930808,Speaker similarity,,,3.2
+44,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,German,924,,44.352,44.352,1.0,CER,Intelligibility,O,7.3 
+45,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Greek,210,,10.08,10.08,1.0,CER,Intelligibility,O,
+46,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Spanish,1254,,60.192,60.192,1.0,CER,Intelligibility,O,7.0 
+47,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Finnish,582,,27.936,27.936,1.0,CER,Intelligibility,O, 18.6 
+48,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,French,1013.9999999999999,,48.67199999999999,48.67199999999999,1.0,CER,Intelligibility,O,25.2 
+49,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Hungarian,570,,27.36,27.36,1.0,CER,Intelligibility,O,15.8 
+50,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Japanese,858,,41.184,41.184,1.0,CER,Intelligibility,O,28.8 
+51,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Dutch,702,,33.696,33.696,1.0,CER,Intelligibility,O,33.4 
+52,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Russian,1062,,50.97599999999999,50.97599999999999,1.0,CER,Intelligibility,O,45.5 
+53,B,S2S,Tacotron 2,,Mono,,,,,,,0.0,,Chinese,336,,16.128,16.128,1.0,CER,Intelligibility,O,62.8 
+54,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6588.0,,316.224,,German,924,,44.352,360.57599999999996,0.12300319488817892,CER,Intelligibility,O,8.3 
+55,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,7302.0,,350.496,,Greek,210,,10.08,360.57599999999996,0.02795527156549521,CER,Intelligibility,O,11.4 
+56,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6258.0,,300.38399999999996,,Spanish,1254,,60.192,360.57599999999996,0.16693290734824281,CER,Intelligibility,O,7.2 
+57,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6930.0,,332.64,,Finnish,582,,27.936,360.57599999999996,0.07747603833865815,CER,Intelligibility,O,10.3 
+58,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6498.0,,311.904,,French,1013.9999999999999,,48.67199999999999,360.57599999999996,0.1349840255591054,CER,Intelligibility,O,30.0 
+59,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6942.0,,333.216,,Hungarian,570,,27.36,360.576,0.07587859424920128,CER,Intelligibility,O,15.9 
+60,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6654.0,,319.392,,Japanese,858,,41.184,360.576,0.11421725239616612,CER,Intelligibility,O,27.2 
+61,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6810.0,,326.88,,Dutch,702,,33.696,360.576,0.09345047923322683,CER,Intelligibility,O,31.6 
+62,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6450.0,,309.6,,Russian,1062,,50.97599999999999,360.576,0.14137380191693288,CER,Intelligibility,O,44.4 
+63,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,7176.0,,344.448,,Chinese,336,,16.128,360.57599999999996,0.04472843450479234,CER,Intelligibility,O,28.6 
+64,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6588.0,,316.224,,German,924,,44.352,360.57599999999996,0.12300319488817892,CER,Intelligibility,O,15.3 
+65,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,7302.0,,350.496,,Greek,210,,10.08,360.57599999999996,0.02795527156549521,CER,Intelligibility,O,22.2 
+66,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6258.0,,300.38399999999996,,Spanish,1254,,60.192,360.57599999999996,0.16693290734824281,CER,Intelligibility,O,10.2 
+67,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6930.0,,332.64,,Finnish,582,,27.936,360.57599999999996,0.07747603833865815,CER,Intelligibility,O,18.1 
+68,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6498.0,,311.904,,French,1013.9999999999999,,48.67199999999999,360.57599999999996,0.1349840255591054,CER,Intelligibility,O,54.5 
+69,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6942.0,,333.216,,Hungarian,570,,27.36,360.576,0.07587859424920128,CER,Intelligibility,O,18.8 
+70,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6654.0,,319.392,,Japanese,858,,41.184,360.576,0.11421725239616612,CER,Intelligibility,O,33.7 
+71,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6810.0,,326.88,,Dutch,702,,33.696,360.576,0.09345047923322683,CER,Intelligibility,O,49.0 
+72,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,6450.0,,309.6,,Russian,1062,,50.97599999999999,360.576,0.14137380191693288,CER,Intelligibility,O,58.1 
+73,B,S2S,Tacotron 2,,Multi,,Separate (Cao et al. 2019),,,7176.0,,344.448,,Chinese,336,,16.128,360.57599999999996,0.04472843450479234,CER,Intelligibility,O,27.3 
+74,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6588.0,,316.224,,German,924,,44.352,360.57599999999996,0.12300319488817892,CER,Intelligibility,O,*5.8 
+75,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,7302.0,,350.496,,Greek,210,,10.08,360.57599999999996,0.02795527156549521,CER,Intelligibility,O,11.6 
+76,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6258.0,,300.38399999999996,,Spanish,1254,,60.192,360.57599999999996,0.16693290734824281,CER,Intelligibility,O,7.0 
+77,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6930.0,,332.64,,Finnish,582,,27.936,360.57599999999996,0.07747603833865815,CER,Intelligibility,O,10.4 
+78,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6498.0,,311.904,,French,1013.9999999999999,,48.67199999999999,360.57599999999996,0.1349840255591054,CER,Intelligibility,O,*19.0 
+79,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6942.0,,333.216,,Hungarian,570,,27.36,360.576,0.07587859424920128,CER,Intelligibility,O,*13.5 
+80,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6654.0,,319.392,,Japanese,858,,41.184,360.576,0.11421725239616612,CER,Intelligibility,O,25.1 
+81,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6810.0,,326.88,,Dutch,702,,33.696,360.576,0.09345047923322683,CER,Intelligibility,O,*22.6 
+82,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6450.0,,309.6,,Russian,1062,,50.97599999999999,360.576,0.14137380191693288,CER,Intelligibility,O,*34.5 
+83,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,7176.0,,344.448,,Chinese,336,,16.128,360.57599999999996,0.04472843450479234,CER,Intelligibility,O,*20.5 
+84,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6588.0,,316.224,,German,80,600.0,6.0,322.224,0.018620586920899747,CER,Intelligibility,O,13.2 
+85,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,7302.0,,350.496,,Greek,80,600.0,6.0,356.496,0.01683048337148243,CER,Intelligibility,O,16.8 
+86,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6258.0,,300.38399999999996,,Spanish,80,600.0,6.0,306.38399999999996,0.01958326805577315,CER,Intelligibility,O,9.8 
+87,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6930.0,,332.64,,Finnish,80,600.0,6.0,338.64,0.01771793054571226,CER,Intelligibility,O,18.2 
+88,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6498.0,,311.904,,French,80,600.0,6.0,317.904,0.018873622225577532,CER,Intelligibility,O,40.2 
+89,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6942.0,,333.216,,Hungarian,80,600.0,6.0,339.216,0.017687844912975804,CER,Intelligibility,O,21.4 
+90,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6654.0,,319.392,,Japanese,80,600.0,6.0,325.392,0.018439297831538574,CER,Intelligibility,O,32.5 
+91,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6810.0,,326.88,,Dutch,80,600.0,6.0,332.88,0.01802451333813987,CER,Intelligibility,O,37.8 
+92,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6450.0,,309.6,,Russian,80,600.0,6.0,315.6,0.019011406844106463,CER,Intelligibility,O,60.4 
+93,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,7176.0,,344.448,,Chinese,80,600.0,6.0,350.448,0.017120942336666212,CER,Intelligibility,O,40.2 
+94,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6588.0,,316.224,,German,120,900.0,9.0,325.224,0.02767323444764224,CER,Intelligibility,O,12.4 
+95,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,7302.0,,350.496,,Greek,120,900.0,9.0,359.496,0.025035049068696177,CER,Intelligibility,O,16.0 
+96,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6258.0,,300.38399999999996,,Spanish,120,900.0,9.0,309.38399999999996,0.029090062834535725,CER,Intelligibility,O,9.9 
+97,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6930.0,,332.64,,Finnish,120,900.0,9.0,341.64,0.026343519494204427,CER,Intelligibility,O,18.4 
+98,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6498.0,,311.904,,French,120,900.0,9.0,320.904,0.028045770697778777,CER,Intelligibility,O,37.6 
+99,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6942.0,,333.216,,Hungarian,120,900.0,9.0,342.216,0.02629917946560067,CER,Intelligibility,O,21.3 
+100,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6654.0,,319.392,,Japanese,120,900.0,9.0,328.392,0.027406270554702915,CER,Intelligibility,O,32.2 
+101,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6810.0,,326.88,,Dutch,120,900.0,9.0,335.88,0.02679528403001072,CER,Intelligibility,O,30.4 
+102,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,6450.0,,309.6,,Russian,120,900.0,9.0,318.6,0.028248587570621465,CER,Intelligibility,O,47.0 
+103,B,S2S,Tacotron 2,,Multi,,Shared (Zhang et al. 2019),,,7176.0,,344.448,,Chinese,120,900.0,9.0,353.448,0.025463434508046445,CER,Intelligibility,O,39.8 
+104,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6588.0,,316.224,,German,80,600.0,6.0,322.224,0.018620586920899747,CER,Intelligibility,O,15.6 
+105,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,7302.0,,350.496,,Greek,80,600.0,6.0,356.496,0.01683048337148243,CER,Intelligibility,O,14.2 
+106,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6258.0,,300.38399999999996,,Spanish,80,600.0,6.0,306.38399999999996,0.01958326805577315,CER,Intelligibility,O,8.1 
+107,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6930.0,,332.64,,Finnish,80,600.0,6.0,338.64,0.01771793054571226,CER,Intelligibility,O,*13.2 
+108,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6498.0,,311.904,,French,80,600.0,6.0,317.904,0.018873622225577532,CER,Intelligibility,O,32.9 
+109,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6942.0,,333.216,,Hungarian,80,600.0,6.0,339.216,0.017687844912975804,CER,Intelligibility,O,*16.5 
+110,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6654.0,,319.392,,Japanese,80,600.0,6.0,325.392,0.018439297831538574,CER,Intelligibility,O,29.9 
+111,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6810.0,,326.88,,Dutch,80,600.0,6.0,332.88,0.01802451333813987,CER,Intelligibility,O,32.8 
+112,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6450.0,,309.6,,Russian,80,600.0,6.0,315.6,0.019011406844106463,CER,Intelligibility,O,38.5 
+113,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,7176.0,,344.448,,Chinese,80,600.0,6.0,350.448,0.017120942336666212,CER,Intelligibility,O,33.0 
+114,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6588.0,,316.224,,German,120,900.0,9.0,325.224,0.02767323444764224,CER,Intelligibility,O,12.5 
+115,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,7302.0,,350.496,,Greek,120,900.0,9.0,359.496,0.025035049068696177,CER,Intelligibility,O,14.7 
+116,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6258.0,,300.38399999999996,,Spanish,120,900.0,9.0,309.38399999999996,0.029090062834535725,CER,Intelligibility,O,*7.6 
+117,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6930.0,,332.64,,Finnish,120,900.0,9.0,341.64,0.026343519494204427,CER,Intelligibility,O,14.0 
+118,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6498.0,,311.904,,French,120,900.0,9.0,320.904,0.028045770697778777,CER,Intelligibility,O,*27.2 
+119,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6942.0,,333.216,,Hungarian,120,900.0,9.0,342.216,0.02629917946560067,CER,Intelligibility,O,18.0 
+120,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6654.0,,319.392,,Japanese,120,900.0,9.0,328.392,0.027406270554702915,CER,Intelligibility,O,30.9 
+121,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6810.0,,326.88,,Dutch,120,900.0,9.0,335.88,0.02679528403001072,CER,Intelligibility,O,28.3 
+122,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,6450.0,,309.6,,Russian,120,900.0,9.0,318.6,0.028248587570621465,CER,Intelligibility,O,*34.4 
+123,B,S2S,Tacotron 2,,Multi,,Generated (this paper),,,7176.0,,344.448,,Chinese,120,900.0,9.0,353.448,0.025463434508046445,CER,Intelligibility,O,*28.4 
+124,C,S2S,VoiceLoop,,Mono,,1 speaker English,,,,,0.0,,English,,2000.0,20.0,20.0,1.0,MUSHRA,Naturalness,S,32
+125,C,S2S,VoiceLoop,,Mono,,1 speaker English,,,,,0.0,,English,,4000.0,40.0,40.0,1.0,MUSHRA,Naturalness,S,49
+126,C,S2S,VoiceLoop,,Mono,,1 speaker English,,,,,0.0,,English,,8000.0,80.0,80.0,1.0,MUSHRA,Naturalness,S,62
+127,C,S2S,VoiceLoop,,Multi,,1 speaker English + 1 speaker Dutch,,Dutch,,16000,160.0,,English,,2000.0,20.0,180.0,0.1111111111111111,MUSHRA,Naturalness,S,48
+128,C,S2S,VoiceLoop,,Multi,,1 speaker English + 1 speaker Dutch,,Dutch,,16000,160.0,,English,,4000.0,40.0,200.0,0.2,MUSHRA,Naturalness,S,53
+129,C,S2S,VoiceLoop,,Multi,,1 speaker English + 1 speaker Dutch,,Dutch,,16000,160.0,,English,,8000.0,80.0,240.0,0.3333333333333333,MUSHRA,Naturalness,S,62
+130,C,S2S,VoiceLoop,,Mono,,2 speakers English,,,,,0.0,,English,,18000.0,180.0,180.0,1.0,MUSHRA,Naturalness,S,45
+131,C,S2S,VoiceLoop,,Multi,,1 speaker English + 2 speakers Dutch,,Dutch,,32000,320.0,,English,,2000.0,20.0,340.0,0.058823529411764705,MUSHRA,Naturalness,S,47
+132,C,S2S,VoiceLoop,,Multi,,1 English + 1 Dutch + 1 French,,Dutch + French,,16000 + 16000,320.0,,English,,2000.0,20.0,340.0,0.058823529411764705,MUSHRA,Naturalness,S,48
+133,C,S2S,VoiceLoop,,Multi,,1 English + 16 speakers source lang,,16,,32000,320.0,,English,,2000.0,20.0,340.0,0.058823529411764705,MUSHRA,Naturalness,S,50
+134,D,S2S,Tacotron,,Multi,Character,Baseline (dumb),,Indonesian,4830.0,84000,840.0,,Javanese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,1.016
+135,D,S2S,Tacotron,,Multi,Character,Baseline (dumb),,Indonesian,4830.0,84000,840.0,,Sundanese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,1.247
+136,D,S2S,Tacotron,,Multi,Character,Baseline (dumb),,Indonesian,4830.0,84000,840.0,,Balinese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,1.129
+137,D,S2S,Tacotron,,Multi,Character,Baseline (dumb),,Indonesian,4830.0,84000,840.0,,Bataks,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,1.254
+138,D,S2S,Tacotron,,Multi,Character,Proposed,,Indonesian,4830.0,84000,840.0,,Javanese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.547
+139,D,S2S,Tacotron,,Multi,Character,Proposed,,Indonesian,4830.0,84000,840.0,,Sundanese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.531
+140,D,S2S,Tacotron,,Multi,Character,Proposed,,Indonesian,4830.0,84000,840.0,,Balinese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.56
+141,D,S2S,Tacotron,,Multi,Character,Proposed,,Indonesian,4830.0,84000,840.0,,Bataks,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.51
+142,D,S2S,Tacotron,,Multi,Character,Topline,,Indonesian,4830.0,84000,840.0,,Javanese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.415
+143,D,S2S,Tacotron,,Multi,Character,Topline,,Indonesian,4830.0,84000,840.0,,Sundanese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.47
+144,D,S2S,Tacotron,,Multi,Character,Topline,,Indonesian,4830.0,84000,840.0,,Balinese,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.478
+145,D,S2S,Tacotron,,Multi,Character,Topline,,Indonesian,4830.0,84000,840.0,,Bataks,,2750.0,27.5,867.5,0.03170028818443804,L2 norm-squared on log-Mel spectrogram,Acoustics,O,0.399
+146,E,S2S,Tacotron 2,nVIDIA,Mono,Grapheme,T2-id-tl,,English,1440.0,,69.12,,Indonesian,38,,1.824,70.944,0.02571041948579161,MOS,Naturalness/overall quality,S,4.271
+147,E,S2S,Tacotron 2,nVIDIA,Mono,Grapheme,T2-id-tl,,English,1440.0,,69.12,,Indonesian,38,,1.824,70.944,0.02571041948579161,SUS-Wacc,Intelligibility,O,0.9826
+148,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-tl,,Javanese + Sudanese,240.0,,11.52,,Indonesian,420,,20.16,31.68,0.6363636363636364,MOS,Naturalness/overall quality,S,4.345
+149,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-tl,,Javanese + Sudanese,240.0,,11.52,,Indonesian,420,,20.16,31.68,0.6363636363636364,SUS-Wacc,Intelligibility,O,0.9896
+150,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-gst-tl,,Javanese + Sudanese,240.0,,11.52,,Indonesian,420,,20.16,31.68,0.6363636363636364,MOS,Naturalness/overall quality,S,4.286
+151,E,S2S,Tacotron 2,nVIDIA,Mono,Grapheme,T2-jv-tl,,English,1440.0,,69.12,,Javanese,16,,0.768,69.888,0.010989010989010988,MOS,Naturalness/overall quality,S,4.077
+152,E,S2S,Tacotron 2,nVIDIA,Mono,Grapheme,T2-jv-tl,,English,1440.0,,69.12,,Javanese,16,,0.768,69.888,0.010989010989010988,SUS-Wacc,Intelligibility,O,0.9502
+153,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-tl,,Indonesian + Sudanese,522.0,,25.055999999999997,,Javanese,138,,6.624,31.679999999999996,0.2090909090909091,MOS,Naturalness/overall quality,S,4.2
+154,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-tl,,Indonesian + Sudanese,522.0,,25.055999999999997,,Javanese,138,,6.624,31.679999999999996,0.2090909090909091,SUS-Wacc,Intelligibility,O,0.9852
+155,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-gst-tl,,Indonesian + Sudanese,522.0,,25.055999999999997,,Javanese,138,,6.624,31.679999999999996,0.2090909090909091,MOS,Naturalness/overall quality,S,4.169
+156,E,S2S,Tacotron 2,nVIDIA,Mono,Grapheme,T2-su-tl,,English,1440.0,,69.12,,Sudanese,19,,0.912,70.03200000000001,0.013022618231665523,MOS,Naturalness/overall quality,S,3.92
+157,E,S2S,Tacotron 2,nVIDIA,Mono,Grapheme,T2-su-tl,,English,1440.0,,69.12,,Sudanese,19,,0.912,70.03200000000001,0.013022618231665523,SUS-Wacc,Intelligibility,O,0.9543
+158,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-tl,,Indonesian + Javanese,558.0,,26.784000000000002,,Sudanese,102,,4.896,31.680000000000003,0.1545454545454545,MOS,Naturalness/overall quality,S,3.97
+159,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-tl,,Indonesian + Javanese,558.0,,26.784000000000002,,Sudanese,102,,4.896,31.680000000000003,0.1545454545454545,SUS-Wacc,Intelligibility,O,0.9753
+160,E,S2S,Tacotron 2,nVIDIA,Multi,Grapheme,T2-mlms-gst-tl,,Indonesian + Javanese,558.0,,26.784000000000002,,Sudanese,102,,4.896,31.680000000000003,0.1545454545454545,MOS,Naturalness/overall quality,S,4.28
+161,F,DNN,,,Mono,,TSD-DNN,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,MCD,Acoustics,O,7.812
+162,F,DNN,,,Mono,,TSD-LSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,MCD,Acoustics,O,7.619
+163,F,DNN,,,Mono,,TSD-BLSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,MCD,Acoustics,O,7.606
+164,F,DNN,,,Mono,,TSD-DNN,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,BAP,Acoustics,O,0.174
+165,F,DNN,,,Mono,,TSD-LSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,BAP,Acoustics,O,0.172
+166,F,DNN,,,Mono,,TSD-BLSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,BAP,Acoustics,O,0.17
+167,F,DNN,,,Mono,,TSD-DNN,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,F0 RMSE,Acoustics,O,33.648
+168,F,DNN,,,Mono,,TSD-LSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,F0 RMSE,Acoustics,O,33.234
+169,F,DNN,,,Mono,,TSD-BLSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,F0 RMSE,Acoustics,O,33.044
+170,F,DNN,,,Mono,,TSD-DNN,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,V/UV,Acoustics,O,6.832
+171,F,DNN,,,Mono,,TSD-LSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,V/UV,Acoustics,O,6.708
+172,F,DNN,,,Mono,,TSD-BLSTM,,,,,0.0,,Tibetan,,800.0,8.0,8.0,1.0,V/UV,Acoustics,O,6.658
+173,F,DNN,,,Mono,,MSD-DNN,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,MCD,Acoustics,O,5.05
+174,F,DNN,,,Mono,,MSD-LSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,MCD,Acoustics,O,4.984
+175,F,DNN,,,Mono,,MSD-BLSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,MCD,Acoustics,O,4.959
+176,F,DNN,,,Mono,,MSD-DNN,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,BAP,Acoustics,O,0.17
+177,F,DNN,,,Mono,,MSD-LSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,BAP,Acoustics,O,0.17
+178,F,DNN,,,Mono,,MSD-BLSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,BAP,Acoustics,O,0.167
+179,F,DNN,,,Mono,,MSD-DNN,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,F0 RMSE,Acoustics,O,13.423
+180,F,DNN,,,Mono,,MSD-LSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,F0 RMSE,Acoustics,O,12.969
+181,F,DNN,,,Mono,,MSD-BLSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,F0 RMSE,Acoustics,O,12.671
+182,F,DNN,,,Mono,,MSD-DNN,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,V/UV,Acoustics,O,5.778
+183,F,DNN,,,Mono,,MSD-LSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,V/UV,Acoustics,O,5.94
+184,F,DNN,,,Mono,,MSD-BLSTM,,,,,0.0,,Chinese,,1352.0,13.52,13.52,1.0,V/UV,Acoustics,O,5.92
+185,F,DNN,,,Multi,,SATT-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MCD,Acoustics,O,7.357
+186,F,DNN,,,Multi,,SATT-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MCD,Acoustics,O,7.202
+187,F,DNN,,,Multi,,SATT-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MCD,Acoustics,O,7.09
+188,F,DNN,,,Multi,,SATT-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,BAP,Acoustics,O,0.174
+189,F,DNN,,,Multi,,SATT-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,BAP,Acoustics,O,0.176
+190,F,DNN,,,Multi,,SATT-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,BAP,Acoustics,O,0.173
+191,F,DNN,,,Multi,,SATT-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,F0 RMSE,Acoustics,O,31.243
+192,F,DNN,,,Multi,,SATT-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,F0 RMSE,Acoustics,O,30.639
+193,F,DNN,,,Multi,,SATT-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,F0 RMSE,Acoustics,O,30.089
+194,F,DNN,,,Multi,,SATT-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,V/UV,Acoustics,O,6.484
+195,F,DNN,,,Multi,,SATT-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,V/UV,Acoustics,O,6.012
+196,F,DNN,,,Multi,,SATT-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,V/UV,Acoustics,O,5.391
+197,F,DNN,,,Multi,,SATT-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MCD,Acoustics,O,5.053
+198,F,DNN,,,Multi,,SATM-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MCD,Acoustics,O,5.033
+199,F,DNN,,,Multi,,SATM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MCD,Acoustics,O,4.959
+200,F,DNN,,,Multi,,SATM-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,BAP,Acoustics,O,0.174
+201,F,DNN,,,Multi,,SATM-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,BAP,Acoustics,O,0.173
+202,F,DNN,,,Multi,,SATM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,BAP,Acoustics,O,0.169
+203,F,DNN,,,Multi,,SATM-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,F0 RMSE,Acoustics,O,13.554
+204,F,DNN,,,Multi,,SATM-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,F0 RMSE,Acoustics,O,13.519
+205,F,DNN,,,Multi,,SATM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,F0 RMSE,Acoustics,O,12.374
+206,F,DNN,,,Multi,,SATM-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,V/UV,Acoustics,O,5.829
+207,F,DNN,,,Multi,,SATM-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,V/UV,Acoustics,O,6.321
+208,F,DNN,,,Multi,,SATM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,V/UV,Acoustics,O,6.108
+209,F,DNN,,,Multi,,TSD-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MOS,Naturalness/overall quality,S,3.21
+210,F,DNN,,,Multi,,TSD-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MOS,Naturalness/overall quality,S,3.3
+211,F,DNN,,,Multi,,TSD-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MOS,Naturalness/overall quality,S,3.43
+212,F,DNN,,,Multi,,SATT-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MOS,Naturalness/overall quality,S,3.71
+213,F,DNN,,,Multi,,SATT-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MOS,Naturalness/overall quality,S,3.9
+214,F,DNN,,,Multi,,SATT-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,MOS,Naturalness/overall quality,S,4.02
+215,F,DNN,,,Multi,,MSD-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MOS,Naturalness/overall quality,S,4.12
+216,F,DNN,,,Multi,,MSD-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MOS,Naturalness/overall quality,S,4.23
+217,F,DNN,,,Multi,,MSD-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MOS,Naturalness/overall quality,S,4.38
+218,F,DNN,,,Multi,,SATM-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MOS,Naturalness/overall quality,S,4.05
+219,F,DNN,,,Multi,,SATM-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MOS,Naturalness/overall quality,S,4.14
+220,F,DNN,,,Multi,,SATM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,MOS,Naturalness/overall quality,S,4.26
+221,F,DNN,,,Multi,,TSD-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,DMOS,Similarity,S,3.16
+222,F,DNN,,,Multi,,TSD-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,DMOS,Similarity,S,3.3
+223,F,DNN,,,Multi,,TSD-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,DMOS,Similarity,S,3.45
+224,F,DNN,,,Multi,,SATT-DNN,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,DMOS,Similarity,S,3.95
+225,F,DNN,,,Multi,,SATT-LSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,DMOS,Similarity,S,4.16
+226,F,DNN,,,Multi,,SATT-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,800.0,8.0,27.83,0.2874595759971254,DMOS,Similarity,S,4.29
+227,F,DNN,,,Multi,,MSD-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,DMOS,Similarity,S,4.1
+228,F,DNN,,,Multi,,MSD-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,DMOS,Similarity,S,4.3
+229,F,DNN,,,Multi,,MSD-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,DMOS,Similarity,S,4.51
+230,F,DNN,,,Multi,,SATM-DNN,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,DMOS,Similarity,S,4.02
+231,F,DNN,,,Multi,,SATM-LSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,DMOS,Similarity,S,4.14
+232,F,DNN,,,Multi,,SATM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Chinese,,169.0,1.69,21.52,0.07853159851301116,DMOS,Similarity,S,4.3
+233,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,100.0,1.0,20.83,0.048007681228996645,MCD,Acoustics,O,8.677
+234,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,200.0,2.0,21.83,0.09161704076958314,MCD,Acoustics,O,8.295
+235,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,350.0,3.5,23.33,0.15002143163309045,MCD,Acoustics,O,8.006
+236,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,500.0,5.0,24.83,0.20136931131695532,MCD,Acoustics,O,7.388
+237,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,100.0,1.0,20.83,0.048007681228996645,BAP,Acoustics,O,0.188
+238,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,200.0,2.0,21.83,0.09161704076958314,BAP,Acoustics,O,0.185
+239,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,350.0,3.5,23.33,0.15002143163309045,BAP,Acoustics,O,0.176
+240,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,500.0,5.0,24.83,0.20136931131695532,BAP,Acoustics,O,0.173
+241,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,100.0,1.0,20.83,0.048007681228996645,F0 RMSE,Acoustics,O,40.163
+242,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,200.0,2.0,21.83,0.09161704076958314,F0 RMSE,Acoustics,O,36.197
+243,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,350.0,3.5,23.33,0.15002143163309045,F0 RMSE,Acoustics,O,36.161
+244,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,500.0,5.0,24.83,0.20136931131695532,F0 RMSE,Acoustics,O,33.038
+245,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,100.0,1.0,20.83,0.048007681228996645,V/UV,Acoustics,O,8.199
+246,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,200.0,2.0,21.83,0.09161704076958314,V/UV,Acoustics,O,7.304
+247,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,350.0,3.5,23.33,0.15002143163309045,V/UV,Acoustics,O,6.957
+248,F,DNN,,,Multi,,AVM-BLSTM,,Chinese + Tibetan,,1983,19.83,,Tibetan,,500.0,5.0,24.83,0.20136931131695532,V/UV,Acoustics,O,6.708
+249,G,DNN,,,Mono,,id,,,,,0.0,,Indonesian,2250,10800.0,108.0,108.0,1.0,MOS,Naturalness/overall quality,S,3.692
+250,G,DNN,,,Mono,,jv,,,,,0.0,,Javanese,420,2016.0,20.16,20.16,1.0,MOS,Naturalness/overall quality,S,3.484
+251,G,DNN,,,Mono,,su,,,,,0.0,,Sudanese,330,1584.0,15.84,15.84,1.0,MOS,Naturalness/overall quality,S,3.333
+252,G,DNN,,,Multi,,jv+id,,Indonesian,2250.0,10800,108.0,,Javanese,420,2016.0,20.16,128.16,0.15730337078651685,MOS,Naturalness/overall quality,S,3.78
+253,G,DNN,,,Multi,,su+id,,Indonesian,2250.0,10800,108.0,,Sudanese,330,1584.0,15.84,123.84,0.12790697674418605,MOS,Naturalness/overall quality,S,3.597
+254,G,DNN,,,Multi,,jv+su+id,,Sudanese + Indonesian,2580.0,12384,123.84,,Javanese,420,2016.0,20.16,144.0,0.14,MOS,Naturalness/overall quality,S,3.998
+255,G,DNN,,,Multi,,su+jv+id,,Javanese + Indonesian,2670.0,12816,128.16,,Sudanese,330,1584.0,15.84,144.0,0.11,MOS,Naturalness/overall quality,S,4
+256,H,S2S,Tacotron 2,ESPNet,Mono,Character,language-specific,,,,,0.0,,Bengali,300,,14.4,14.4,1.0,DMOS,Similarity,S,3.6
+257,H,S2S,Tacotron 2,ESPNet,Mono,Character,MLCM,,,,,0.0,,Bengali,300,,14.4,14.4,1.0,DMOS,Similarity,S,3.37
+258,H,S2S,Tacotron 2,ESPNet,Mono,Character,language-specific,,,,,0.0,,Hindi,300,,14.4,14.4,1.0,DMOS,Similarity,S,2.88
+259,H,S2S,Tacotron 2,ESPNet,Mono,Character,MLCM,,,,,0.0,,Hindi,300,,14.4,14.4,1.0,DMOS,Similarity,S,2.86
+260,H,S2S,Tacotron 2,ESPNet,Mono,Character,language-specific,,,,,0.0,,Malayalam,300,,14.4,14.4,1.0,DMOS,Similarity,S,3.13
+261,H,S2S,Tacotron 2,ESPNet,Mono,Character,MLCM,,,,,0.0,,Malayalam,300,,14.4,14.4,1.0,DMOS,Similarity,S,3.07
+262,H,S2S,Tacotron 2,ESPNet,Multi,Character,language-specific,,Bengali,300.0,,14.4,,Hindi,300,,14.4,28.8,0.5,DMOS,Similarity,S,3.37
+263,H,S2S,Tacotron 2,ESPNet,Multi,Character,MLCM,,Bengali,300.0,,14.4,,Hindi,300,,14.4,28.8,0.5,DMOS,Similarity,S,3.27
+264,H,S2S,Tacotron 2,ESPNet,Multi,Character,language-specific,,Hindi,300.0,,14.4,,Bengali,300,,14.4,28.8,0.5,DMOS,Similarity,S,3.05
+265,H,S2S,Tacotron 2,ESPNet,Multi,Character,MLCM,,Hindi,300.0,,14.4,,Bengali,300,,14.4,28.8,0.5,DMOS,Similarity,S,2.81
+266,H,S2S,Tacotron 2,ESPNet,Multi,Character,language-specific,,Malayalam,300.0,,14.4,,Tamil,300,,14.4,28.8,0.5,DMOS,Similarity,S,3.22
+267,H,S2S,Tacotron 2,ESPNet,Multi,Character,MLCM,,Malayalam,300.0,,14.4,,Tamil,300,,14.4,28.8,0.5,DMOS,Similarity,S,3.05
+268,H,S2S,Tacotron 2,ESPNet,Multi,Character,language-specific,,Tamil,300.0,,14.4,,Malayalam,300,,14.4,28.8,0.5,DMOS,Similarity,S,3.12
+269,H,S2S,Tacotron 2,ESPNet,Multi,Character,MLCM,,Tamil,300.0,,14.4,,Malayalam,300,,14.4,28.8,0.5,DMOS,Similarity,S,2.88
+270,H,S2S,Tacotron 2,ESPNet,Multi,Phone,Transliteration,,Hindi + Malayalam,600.0,,28.8,,Bengali,300,,14.4,43.2,0.3333333333333333,DMOS,Similarity,S,3.05
+271,H,S2S,Tacotron 2,ESPNet,Multi,Phone,Phoen mapping,,Hindi + Malayalam,600.0,,28.8,,Bengali,300,,14.4,43.2,0.3333333333333333,DMOS,Similarity,S,3.32
+272,H,S2S,Tacotron 2,ESPNet,Multi,Phone,Transliteration,,Bengali + Malayalam,600.0,,28.8,,Hindi,300,,14.4,43.2,0.3333333333333333,DMOS,Similarity,S,3.18
+273,H,S2S,Tacotron 2,ESPNet,Multi,Phone,Phoen mapping,,Bengali + Malayalam,600.0,,28.8,,Hindi,300,,14.4,43.2,0.3333333333333333,DMOS,Similarity,S,3.31
+274,H,S2S,Tacotron 2,ESPNet,Multi,Phone,Transliteration,,Bengali + Hindi,600.0,,28.8,,Malayalam,300,,14.4,43.2,0.3333333333333333,DMOS,Similarity,S,3.47
+275,H,S2S,Tacotron 2,ESPNet,Multi,Phone,Phone mapping,,Bengali + Hindi,600.0,,28.8,,Malayalam,300,,14.4,43.2,0.3333333333333333,DMOS,Similarity,S,3.35
+276,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,41
+277,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,28
+278,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,23
+279,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,22
+280,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,37
+281,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,27
+282,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,22
+283,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,20
+284,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,36.5
+285,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,27.5
+286,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,22.5
+287,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,21
+288,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,75
+289,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,36.5
+290,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,30.5
+291,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,27.5
+292,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,32
+293,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,27.5
+294,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,23
+295,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,19
+296,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,31
+297,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,29
+298,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,26.5
+299,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,21
+300,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,CER,Intelligibility,O,53.5
+301,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,CER,Intelligibility,O,25
+302,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,18
+303,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,CER,Intelligibility,O,24
+304,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,CER,Intelligibility,O,20.5
+305,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,18
+306,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,CER,Intelligibility,O,23
+307,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,CER,Intelligibility,O,23.5
+308,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,16
+309,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,15.9
+310,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,20,,0.96,70.08,0.0136986301369863,MCD,Acoustics,O,14.8
+311,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,MCD,Acoustics,O,13.05
+312,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,30,,1.44,70.56,0.02040816326530612,MCD,Acoustics,O,12.7
+313,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,15
+314,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,20,,0.96,70.08,0.0136986301369863,MCD,Acoustics,O,14.25
+315,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,MCD,Acoustics,O,13.2
+316,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,30,,1.44,70.56,0.02040816326530612,MCD,Acoustics,O,12.7
+317,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,14.95
+318,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,20,,0.96,70.08,0.0136986301369863,MCD,Acoustics,O,14.35
+319,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,MCD,Acoustics,O,13.1
+320,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,30,,1.44,70.56,0.02040816326530612,MCD,Acoustics,O,12.9
+321,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,15.05
+322,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,MCD,Acoustics,O,14.05
+323,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,MCD,Acoustics,O,13.85
+324,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,MCD,Acoustics,O,13.85
+325,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,13.72
+326,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,MCD,Acoustics,O,13.75
+327,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,MCD,Acoustics,O,13.7
+328,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,MCD,Acoustics,O,13.65
+329,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,14.15
+330,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,MCD,Acoustics,O,13.9
+331,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,MCD,Acoustics,O,13.82
+332,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,MCD,Acoustics,O,13.85
+333,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,MCD,Acoustics,O,12.47
+334,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,MCD,Acoustics,O,13.97
+335,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,13.55
+336,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,MCD,Acoustics,O,13.22
+337,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,MCD,Acoustics,O,13.15
+338,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,12.82
+339,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,MCD,Acoustics,O,13.85
+340,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,MCD,Acoustics,O,13.65
+341,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,MCD,Acoustics,O,13.4
+342,I,S2S,Tacotron,,Multi,Phone,Separate - phn2char,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,71.5
+343,I,S2S,Tacotron,,Multi,Phone,Separate - phn2char,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,35
+344,I,S2S,Tacotron,,Multi,Phone,Separate - phn2char,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,25.5
+345,I,S2S,Tacotron,,Multi,Phone,Separate - phn2char,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,23
+346,I,S2S,Tacotron,,Multi,Phone,Learned - phn2char,,English,1440.0,,69.12,,German,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,39
+347,I,S2S,Tacotron,,Multi,Phone,Learned - phn2char,,English,1440.0,,69.12,,German,20,,0.96,70.08,0.0136986301369863,CER,Intelligibility,O,28
+348,I,S2S,Tacotron,,Multi,Phone,Learned - phn2char,,English,1440.0,,69.12,,German,25,,1.2,70.32000000000001,0.01706484641638225,CER,Intelligibility,O,24
+349,I,S2S,Tacotron,,Multi,Phone,Learned - phn2char,,English,1440.0,,69.12,,German,30,,1.44,70.56,0.02040816326530612,CER,Intelligibility,O,22
+350,I,S2S,Tacotron,,Multi,Phone,Separate - phn2char,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,CER,Intelligibility,O,68
+351,I,S2S,Tacotron,,Multi,Phone,Separate - phn2char,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,CER,Intelligibility,O,77
+352,I,S2S,Tacotron,,Multi,Phone,Separate - phn2char,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,40
+353,I,S2S,Tacotron,,Multi,Phone,Learned - phn2char,,English,1440.0,,69.12,,French,10,,0.48,69.60000000000001,0.00689655172413793,CER,Intelligibility,O,34
+354,I,S2S,Tacotron,,Multi,Phone,Learned - phn2char,,English,1440.0,,69.12,,French,12.5,,0.6,69.72,0.008605851979345954,CER,Intelligibility,O,21
+355,I,S2S,Tacotron,,Multi,Phone,Learned - phn2char,,English,1440.0,,69.12,,French,15,,0.72,69.84,0.010309278350515464,CER,Intelligibility,O,18
+356,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,MOS,Naturalness/overall quality,S,3.94
+357,I,S2S,Tacotron,,Multi,Phone,Separate - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,MOS,Naturalness/overall quality,S,2.9
+358,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,MOS,Naturalness/overall quality,S,4.01
+359,I,S2S,Tacotron,,Multi,Phone,Unified - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,MOS,Naturalness/overall quality,S,3.48
+360,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,25,,1.2,70.32000000000001,0.01706484641638225,MOS,Naturalness/overall quality,S,3.99
+361,I,S2S,Tacotron,,Multi,Phone,Learned - phn2phn,,English,1440.0,,69.12,,Chinese,15,,0.72,69.84,0.010309278350515464,MOS,Naturalness/overall quality,S,3.46
+362,I,S2S,Tacotron,,Mono,Phone,Scratch,,,,,0.0,,Chinese,25,,1.2,1.2,1.0,MOS,Naturalness/overall quality,S,1.39
+363,I,S2S,Tacotron,,Mono,Phone,Scratch,,,,,0.0,,Chinese,15,,0.72,0.72,1.0,MOS,Naturalness/overall quality,S,1.26
+364,J,S2S,Tacotron,,Mono,,T-base,,,,,0.0,,English,600,,28.8,28.8,1.0,WER,Intelligibility,O,26.3
+365,J,S2S,Tacotron,,Multi,,PD-H (pretrained decoder),,Korean,3600.0,,172.8,,English,120,,5.76,178.56,0.03225806451612903,WER,Intelligibility,O,37.4
+366,J,S2S,Tacotron,,Multi,,PD-H (pretrained decoder),,Korean,3600.0,,172.8,,English,600,,28.8,201.60000000000002,0.14285714285714285,WER,Intelligibility,O,21.1
+367,J,S2S,Tacotron,,Multi,,PA-HL (pretrained all modules),,Korean + English,3600.0,,172.8,,English,24,,1.152,173.952,0.006622516556291391,WER,Intelligibility,O,55.8
+368,J,S2S,Tacotron,,Multi,,PA-HL (pretrained all modules),,Korean + English,3600.0,,172.8,,English,120,,5.76,178.56,0.03225806451612903,WER,Intelligibility,O,30.1
+369,J,S2S,Tacotron,,Multi,,PA-HL (pretrained all modules),,Korean + English,3600.0,,172.8,,English,600,,28.8,201.60000000000002,0.14285714285714285,WER,Intelligibility,O,15
+370,J,S2S,Tacotron,,Mono,,PD-E,,English,3600.0,,172.8,,English,24,,1.152,173.952,0.006622516556291391,WER,Intelligibility,O,41.9
+371,J,S2S,Tacotron,,Mono,,PD-E,,English,3600.0,,172.8,,English,120,,5.76,178.56,0.03225806451612903,WER,Intelligibility,O,31.4
+372,J,S2S,Tacotron,,Mono,,PD-E,,English,3600.0,,172.8,,English,600,,28.8,201.60000000000002,0.14285714285714285,WER,Intelligibility,O,19.6
+373,K,DNN,,,Mono,,Male,,,,,0.0,Indo-Aryan,Bengali,,5000.0,50.0,50.0,1.0,MOS,Naturalness/overall quality,S,3.83
+374,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,56959,569.59,Indo-Aryan,Bengali,,5000.0,50.0,619.59,0.08069852644490712,MOS,Naturalness/overall quality,S,3.94
+375,K,DNN,,,Mono,,Male,,,,,0.0,Indo-Aryan,Gujarati,,2053.0,20.53,20.53,1.0,MOS,Naturalness/overall quality,S,3.34
+376,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,59906,599.06,Indo-Aryan,Gujarati,,2053.0,20.53,619.5899999999999,0.03313481495827887,MOS,Naturalness/overall quality,S,3.77
+377,K,DNN,,,Mono,,Male,,,,,0.0,Dravidian,Kannada,,2214.0,22.14,22.14,1.0,MOS,Naturalness/overall quality,S,3.75
+378,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,59745,597.45,Dravidian,Kannada,,2214.0,22.14,619.59,0.03573330750980487,MOS,Naturalness/overall quality,S,3.9
+379,K,DNN,,,Mono,,Male,,,,,0.0,Dravidian,Malayalam,,2023.0,20.23,20.23,1.0,MOS,Naturalness/overall quality,S,4.14
+380,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,59936,599.36,Dravidian,Malayalam,,2023.0,20.23,619.59,0.03265062379960942,MOS,Naturalness/overall quality,S,4.1
+381,K,DNN,,,Mono,,Male,,,,,0.0,Indo-Aryan,Marathi,,4800.0,48.0,48.0,1.0,MOS,Naturalness/overall quality,S,4.32
+382,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,57159,571.59,Indo-Aryan,Marathi,,4800.0,48.0,619.59,0.07747058538711082,MOS,Naturalness/overall quality,S,4.25
+383,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,61959,619.59,Indo-Aryan,Odia,,0.0,0.0,619.59,0.0,MOS,Naturalness/overall quality,S,3.8
+384,K,DNN,,,Mono,,Male,,,,,0.0,Dravidian,Tamil,,1956.0,19.56,19.56,1.0,MOS,Naturalness/overall quality,S,3.45
+385,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,60003,600.03,Dravidian,Tamil,,1956.0,19.56,619.5899999999999,0.03156926354524767,MOS,Naturalness/overall quality,S,3.61
+386,K,DNN,,,Mono,,Male,,,,,0.0,Dravidian,Telugu,,2154.0,21.54,21.54,1.0,MOS,Naturalness/overall quality,S,3.01
+387,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,59805,598.05,Dravidian,Telugu,,2154.0,21.54,619.5899999999999,0.03476492519246599,MOS,Naturalness/overall quality,S,3.79
+388,K,DNN,,,Mono,,Male,,,,,0.0,Indo-Aryan,Urdu,,4000.0,40.0,40.0,1.0,MOS,Naturalness/overall quality,S,3.92
+389,K,DNN,,,Multi,,Male,Indo-Aryan + Dravidian,11 languages,,57959,579.59,Indo-Aryan,Urdu,,4000.0,40.0,619.59,0.06455882115592569,MOS,Naturalness/overall quality,S,4.03
+390,K,DNN,,,Mono,,Female,,,,,0.0,Indo-Aryan,Bengali,,6500.0,65.0,65.0,1.0,MOS,Naturalness/overall quality,S,3.4
+391,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,55459,554.59,Indo-Aryan,Bengali,,6500.0,65.0,619.59,0.10490808437837924,MOS,Naturalness/overall quality,S,3.63
+392,K,DNN,,,Mono,,Female,,,,,0.0,Indo-Aryan,Gujarati,,2219.0,22.19,22.19,1.0,MOS,Naturalness/overall quality,S,2.97
+393,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,59740,597.4,Indo-Aryan,Gujarati,,2219.0,22.19,619.59,0.035814006036249776,MOS,Naturalness/overall quality,S,3.37
+394,K,DNN,,,Mono,,Female,,,,,0.0,Dravidian,Kannada,,2186.0,21.86,21.86,1.0,MOS,Naturalness/overall quality,S,3.77
+395,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,59773,597.73,Dravidian,Kannada,,2186.0,21.86,619.59,0.03528139576171339,MOS,Naturalness/overall quality,S,3.79
+396,K,DNN,,,Mono,,Female,,,,,0.0,Dravidian,Malayalam,,2103.0,21.03,21.03,1.0,MOS,Naturalness/overall quality,S,3.89
+397,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,59856,598.56,Dravidian,Malayalam,,2103.0,21.03,619.5899999999999,0.03394180022272794,MOS,Naturalness/overall quality,S,4.03
+398,K,DNN,,,Mono,,Female,,,,,0.0,Indo-Aryan,Marathi,,5600.0,56.0,56.0,1.0,MOS,Naturalness/overall quality,S,3.63
+399,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,56359,563.59,Indo-Aryan,Marathi,,5600.0,56.0,619.59,0.09038234961829597,MOS,Naturalness/overall quality,S,3.68
+400,K,DNN,,,Mono,,Female,,,,,0.0,Dravidian,Tamil,,2335.0,23.35,23.35,1.0,MOS,Naturalness/overall quality,S,3.36
+401,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,59624,596.24,Dravidian,Tamil,,2335.0,23.35,619.59,0.037686211849771625,MOS,Naturalness/overall quality,S,3.62
+402,K,DNN,,,Mono,,Female,,,,,0.0,Dravidian,Telugu,,2294.0,22.94,22.94,1.0,MOS,Naturalness/overall quality,S,3.72
+403,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,59665,596.65,Dravidian,Telugu,,2294.0,22.94,619.59,0.03702448393292339,MOS,Naturalness/overall quality,S,4.15
+404,K,DNN,,,Mono,,Female,,,,,0.0,Indo-Aryan,Urdu,,4500.0,45.0,45.0,1.0,MOS,Naturalness/overall quality,S,3.66
+405,K,DNN,,,Multi,,Female,Indo-Aryan + Dravidian,11 languages,,57459,574.59,Indo-Aryan,Urdu,,4500.0,45.0,619.59,0.0726286738004164,MOS,Naturalness/overall quality,S,3.63
+406,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker AXB,,4 languages,1767.0,,84.816,,English,30,,1.44,86.256,0.01669449081803005,DTWMCD,Acoustics,O,8.2
+407,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker AXB,,4 languages,1767.0,,84.816,,English,30,,1.44,86.256,0.01669449081803005,DTWMCD,Acoustics,O,8.75
+408,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker SLP,,4 languages,1767.0,,84.816,,English,30,,1.44,86.256,0.01669449081803005,DTWMCD,Acoustics,O,9.05
+409,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker SLP,,4 languages,1767.0,,84.816,,English,30,,1.44,86.256,0.01669449081803005,DTWMCD,Acoustics,O,9.9
+410,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker IITM2,,4 languages,1251.0,,60.048,,Gujarati,546,,26.208,86.256,0.3038397328881469,DTWMCD,Acoustics,O,6.54
+411,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker IITM2,,4 languages,1251.0,,60.048,,Gujarati,546,,26.208,86.256,0.3038397328881469,DTWMCD,Acoustics,O,7.03
+412,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker AXB,,4 languages,1681.0,,80.68799999999999,,Hindi,115,,5.52,86.20799999999998,0.06403118040089087,DTWMCD,Acoustics,O,7.51
+413,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker AXB,,4 languages,1681.0,,80.68799999999999,,Hindi,115,,5.52,86.20799999999998,0.06403118040089087,DTWMCD,Acoustics,O,8.57
+414,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker IITF,,4 languages,1522.0,,73.056,,Hindi,275,,13.2,86.256,0.15303283249860877,DTWMCD,Acoustics,O,7.09
+415,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker IITF,,4 languages,1522.0,,73.056,,Hindi,275,,13.2,86.256,0.15303283249860877,DTWMCD,Acoustics,O,7.57
+416,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker IITM,,4 languages,1527.0,,73.29599999999999,,Hindi,270,,12.96,86.256,0.15025041736227046,DTWMCD,Acoustics,O,6.62
+417,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker IITM,,4 languages,1527.0,,73.29599999999999,,Hindi,270,,12.96,86.256,0.15025041736227046,DTWMCD,Acoustics,O,7.52
+418,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker AUP,,4 languages,1770.0,,84.96,,Marathi,27,,1.296,86.256,0.015025041736227046,DTWMCD,Acoustics,O,6.38
+419,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker AUP,,4 languages,1770.0,,84.96,,Marathi,27,,1.296,86.256,0.015025041736227046,DTWMCD,Acoustics,O,7.35
+420,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker IITM1,,4 languages,1294.0,,62.111999999999995,,Marathi,503,,24.144000000000002,86.256,0.2799109627156372,DTWMCD,Acoustics,O,6.48
+421,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker IITM1,,4 languages,1294.0,,62.111999999999995,,Marathi,503,,24.144000000000002,86.256,0.2799109627156372,DTWMCD,Acoustics,O,7.09
+422,L,S2S,Deep Voice 3,,Multi,,Unfactored - Speaker SLP,,4 languages,1766.0,,84.76799999999999,,Marathi,31,,1.4879999999999998,86.25599999999999,0.01725097384529772,DTWMCD,Acoustics,O,9.19
+423,L,S2S,Deep Voice 3,,Multi,,Factored - Speaker SLP,,4 languages,1766.0,,84.76799999999999,,Marathi,31,,1.4879999999999998,86.25599999999999,0.01725097384529772,DTWMCD,Acoustics,O,10.23
+424,L,S2S,Deep Voice 3,,Multi,,Unfactored - Baseline multi Indic,,4 languages,1797.0,,86.256,,Marathi,0,,0.0,86.256,0.0,DTWMCD,Acoustics,O,9.19
+425,L,S2S,Deep Voice 3,,Multi,,Unfactored - Baseline multi Indic,,4 languages,1797.0,,86.256,,English,0,,0.0,86.256,0.0,DTWMCD,Acoustics,O,9.05
+426,L,S2S,Deep Voice 3,,Multi,,Factored - Baseline multi Indic,,4 languages,1797.0,,86.256,,Marathi,0,,0.0,86.256,0.0,DTWMCD,Acoustics,O,10.23
+427,L,S2S,Deep Voice 3,,Multi,,Factored - Baseline multi Indic,,4 languages,1797.0,,86.256,,English,0,,0.0,86.256,0.0,DTWMCD,Acoustics,O,9.9
+428,L,S2S,Deep Voice 3,,Multi,,Unfactored - Adapted baseline,,,1827.0,,87.696,,Marathi,30,,1.44,89.136,0.01615508885298869,DTWMCD,Acoustics,O,8.81
+429,L,S2S,Deep Voice 3,,Multi,,Unfactored - Adapted baseline,,,1827.0,,87.696,,English,30,,1.44,89.136,0.01615508885298869,DTWMCD,Acoustics,O,8.46
+430,L,S2S,Deep Voice 3,,Multi,,Factored - Adapted baseline,,,1827.0,,87.696,,Marathi,30,,1.44,89.136,0.01615508885298869,DTWMCD,Acoustics,O,9.15
+431,L,S2S,Deep Voice 3,,Multi,,Factored - Adapted baseline,,,1827.0,,87.696,,English,30,,1.44,89.136,0.01615508885298869,DTWMCD,Acoustics,O,8.77
+432,L,S2S,Deep Voice 3,,Multi,,Unfactored - Adapted baseline Marathi,,,1797.0,,86.256,,Marathi,30,,1.44,87.696,0.016420361247947456,DTWMCD,Acoustics,O,8.8
+433,L,S2S,Deep Voice 3,,Multi,,Unfactored - Adapted baseline Marathi,,,1827.0,,87.696,,English,0,,0.0,87.696,0.0,DTWMCD,Acoustics,O,8.7
+434,L,S2S,Deep Voice 3,,Multi,,Factored - Adapted baseline Marathi,,,1797.0,,86.256,,Marathi,30,,1.44,87.696,0.016420361247947456,DTWMCD,Acoustics,O,9.28
+435,L,S2S,Deep Voice 3,,Multi,,Factored - Adapted baseline Marathi,,,1827.0,,87.696,,English,0,,0.0,87.696,0.0,DTWMCD,Acoustics,O,9.31
+436,L,S2S,Deep Voice 3,,Multi,,Unfactored - Adapted baseline English,,,1827.0,,87.696,,Marathi,0,,0.0,87.696,0.0,DTWMCD,Acoustics,O,8.9
+437,L,S2S,Deep Voice 3,,Multi,,Unfactored - Adapted baseline English,,,1797.0,,86.256,,English,30,,1.44,87.696,0.016420361247947456,DTWMCD,Acoustics,O,8.42
+438,L,S2S,Deep Voice 3,,Multi,,Factored - Adapted baseline English,,,1827.0,,87.696,,Marathi,0,,0.0,87.696,0.0,DTWMCD,Acoustics,O,9.16
+439,L,S2S,Deep Voice 3,,Multi,,Factored - Adapted baseline English,,,1797.0,,86.256,,English,30,,1.44,87.696,0.016420361247947456,DTWMCD,Acoustics,O,8.74
+440,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi female,,,2057.0,,98.736,,Marathi,0,,0.0,98.736,0.0,DTWMCD,Acoustics,O,9.36
+441,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi female,,,2057.0,,98.736,,English,0,,0.0,98.736,0.0,DTWMCD,Acoustics,O,9.09
+442,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi female,,,2057.0,,98.736,,Marathi,0,,0.0,98.736,0.0,DTWMCD,Acoustics,O,10.49
+443,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi female,,,2057.0,,98.736,,English,0,,0.0,98.736,0.0,DTWMCD,Acoustics,O,10.02
+444,L,S2S,Deep Voice 3,,Multi,,Unfactored - external English female,,,2157.0,,103.536,,Marathi,0,,0.0,103.536,0.0,DTWMCD,Acoustics,O,9.3
+445,L,S2S,Deep Voice 3,,Multi,,Unfactored - external English female,,,2157.0,,103.536,,English,0,,0.0,103.536,0.0,DTWMCD,Acoustics,O,9.13
+446,L,S2S,Deep Voice 3,,Multi,,Factored - external English female,,,2157.0,,103.536,,Marathi,0,,0.0,103.536,0.0,DTWMCD,Acoustics,O,10.25
+447,L,S2S,Deep Voice 3,,Multi,,Factored - external English female,,,2157.0,,103.536,,English,0,,0.0,103.536,0.0,DTWMCD,Acoustics,O,10.08
+448,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi + English female,,,2417.0,,116.016,,Marathi,0,,0.0,116.016,0.0,DTWMCD,Acoustics,O,9.42
+449,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi + English female,,,2417.0,,116.016,,English,0,,0.0,116.016,0.0,DTWMCD,Acoustics,O,9.29
+450,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi + English female,,,2417.0,,116.016,,Marathi,0,,0.0,116.016,0.0,DTWMCD,Acoustics,O,10.13
+451,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi + English female,,,2417.0,,116.016,,English,0,,0.0,116.016,0.0,DTWMCD,Acoustics,O,9.88
+452,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi adapted Marathi,,,2057.0,,98.736,,Marathi,30,,1.44,100.176,0.014374700527072352,DTWMCD,Acoustics,O,8.85
+453,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi adapted Marathi,,,2057.0,,98.736,,English,0,,0.0,98.736,0.0,DTWMCD,Acoustics,O,8.74
+454,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi adapted Marathi,,,2057.0,,98.736,,Marathi,30,,1.44,100.176,0.014374700527072352,DTWMCD,Acoustics,O,9.17
+455,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi adapted Marathi,,,2057.0,,98.736,,English,0,,0.0,98.736,0.0,DTWMCD,Acoustics,O,9.07
+456,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi + English adapted Marathi,,,2417.0,,116.016,,Marathi,30,,1.44,117.456,0.012259910093992644,DTWMCD,Acoustics,O,9.14
+457,L,S2S,Deep Voice 3,,Multi,,Unfactored - external Marathi + English adapted Marathi,,,2417.0,,116.016,,English,30,,1.44,117.456,0.012259910093992644,DTWMCD,Acoustics,O,8.7
+458,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi + English adapted Marathi,,,2417.0,,116.016,,Marathi,30,,1.44,117.456,0.012259910093992644,DTWMCD,Acoustics,O,9.35
+459,L,S2S,Deep Voice 3,,Multi,,Factored - external Marathi + English adapted Marathi,,,2417.0,,116.016,,English,30,,1.44,117.456,0.012259910093992644,DTWMCD,Acoustics,O,8.84
+460,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITF3,,,3416.0,,163.968,,Bengali,94,,4.512,168.48,0.02678062678062678,DTWMCD,Acoustics,O,7.3
+461,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITF3,,,3416.0,,163.968,,Bengali,94,,4.512,168.48,0.02678062678062678,DTWMCD,Acoustics,O,7.64
+462,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITM3,,,3029.0,,145.392,,Bengali,481,,23.087999999999997,168.48,0.13703703703703704,DTWMCD,Acoustics,O,6.79
+463,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITM3,,,3029.0,,145.392,,Bengali,481,,23.087999999999997,168.48,0.13703703703703704,DTWMCD,Acoustics,O,7.28
+464,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker AXB,,,3480.0,,167.04,,English,30,,1.44,168.48,0.008547008547008548,DTWMCD,Acoustics,O,8.08
+465,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker AXB,,,3480.0,,167.04,,English,30,,1.44,168.48,0.008547008547008548,DTWMCD,Acoustics,O,8.7
+466,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker SLP,,,3480.0,,167.04,,English,30,,1.44,168.48,0.008547008547008548,DTWMCD,Acoustics,O,9.46
+467,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker SLP,,,3480.0,,167.04,,English,30,,1.44,168.48,0.008547008547008548,DTWMCD,Acoustics,O,9.95
+468,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITF,,,3136.0,,150.528,,English,374,,17.952,168.48,0.10655270655270657,DTWMCD,Acoustics,O,7.78
+469,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITF,,,3136.0,,150.528,,English,374,,17.952,168.48,0.10655270655270657,DTWMCD,Acoustics,O,9.17
+470,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITM,,,3150.0,,151.2,,English,360,,17.28,168.48,0.10256410256410257,DTWMCD,Acoustics,O,7.93
+471,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITM,,,3150.0,,151.2,,English,360,,17.28,168.48,0.10256410256410257,DTWMCD,Acoustics,O,9
+472,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker AD,,,3456.0,,165.888,,Gujarati,54,,2.592,168.48000000000002,0.015384615384615384,DTWMCD,Acoustics,O,6.74
+473,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker AD,,,3456.0,,165.888,,Gujarati,54,,2.592,168.48000000000002,0.015384615384615384,DTWMCD,Acoustics,O,7.71
+474,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker DP,,,3462.0,,166.176,,Gujarati,48,,2.304,168.48,0.013675213675213675,DTWMCD,Acoustics,O,7.45
+475,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker DP,,,3462.0,,166.176,,Gujarati,48,,2.304,168.48,0.013675213675213675,DTWMCD,Acoustics,O,9.21
+476,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITM2,,,2964.0,,142.272,,Gujarati,546,,26.208,168.48,0.15555555555555556,DTWMCD,Acoustics,O,6.85
+477,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITM2,,,2964.0,,142.272,,Gujarati,546,,26.208,168.48,0.15555555555555556,DTWMCD,Acoustics,O,8.27
+478,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITF2,,,3203.0,,153.744,,Gujarati,307,,14.735999999999999,168.48,0.08746438746438746,DTWMCD,Acoustics,O,6.79
+479,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITF2,,,3203.0,,153.744,,Gujarati,307,,14.735999999999999,168.48,0.08746438746438746,DTWMCD,Acoustics,O,7.52
+480,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker KT,,,3484.0,,167.232,,Gujarati,26,,1.248,168.48,0.007407407407407408,DTWMCD,Acoustics,O,6.44
+481,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker KT,,,3484.0,,167.232,,Gujarati,26,,1.248,168.48,0.007407407407407408,DTWMCD,Acoustics,O,9.36
+482,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker AXB,,,3395.0,,162.96,,Hindi,115,,5.52,168.48000000000002,0.032763532763532756,DTWMCD,Acoustics,O,7.47
+483,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker AXB,,,3395.0,,162.96,,Hindi,115,,5.52,168.48000000000002,0.032763532763532756,DTWMCD,Acoustics,O,8.65
+484,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITF,,,3235.0,,155.28,,Hindi,275,,13.2,168.48,0.07834757834757834,DTWMCD,Acoustics,O,6.96
+485,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITF,,,3235.0,,155.28,,Hindi,275,,13.2,168.48,0.07834757834757834,DTWMCD,Acoustics,O,7.72
+486,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITM,,,3240.0,,155.52,,Hindi,270,,12.96,168.48000000000002,0.07692307692307691,DTWMCD,Acoustics,O,6.48
+487,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITM,,,3240.0,,155.52,,Hindi,270,,12.96,168.48000000000002,0.07692307692307691,DTWMCD,Acoustics,O,8.32
+488,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker AUP,,,3483.0,,167.18399999999997,,Marathi,27,,1.296,168.47999999999996,0.0076923076923076945,DTWMCD,Acoustics,O,6.34
+489,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker AUP,,,3483.0,,167.18399999999997,,Marathi,27,,1.296,168.47999999999996,0.0076923076923076945,DTWMCD,Acoustics,O,7.68
+490,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITF4,,,3251.0,,156.048,,Marathi,259,,12.432,168.48,0.0737891737891738,DTWMCD,Acoustics,O,7.32
+491,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITF4,,,3251.0,,156.048,,Marathi,259,,12.432,168.48,0.0737891737891738,DTWMCD,Acoustics,O,8.41
+492,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker IITM1,,,3327.0,,159.696,,Marathi,183,,8.783999999999999,168.48,0.05213675213675213,DTWMCD,Acoustics,O,6.38
+493,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker IITM1,,,3327.0,,159.696,,Marathi,183,,8.783999999999999,168.48,0.05213675213675213,DTWMCD,Acoustics,O,7.35
+494,L,S2S,Deep Voice 3,,Multi,,Unfactored - MLMS - Speaker SLP,,,3479.0,,166.99200000000002,,Marathi,31,,1.4879999999999998,168.48000000000002,0.00883190883190883,DTWMCD,Acoustics,O,9.62
+495,L,S2S,Deep Voice 3,,Multi,,Factored - MLMS - Speaker SLP,,,3479.0,,166.99200000000002,,Marathi,31,,1.4879999999999998,168.48000000000002,0.00883190883190883,DTWMCD,Acoustics,O,10.37
+496,L,S2S,Deep Voice 3,,Multi,,Baseline LJSpeech,,,1380.0,,66.24,,Gujarati,307,,14.735999999999999,80.976,0.1819798458802608,DTWMCD,Acoustics,O,7.9
+497,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG,,,2529.0,,121.392,,Gujarati,307,,14.735999999999999,136.128,0.10825105782792666,DTWMCD,Acoustics,O,7.96
+498,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG + Guj. male (Big),,,2529.0,,121.392,,Gujarati,853,,40.943999999999996,162.33599999999998,0.25221762270845655,DTWMCD,Acoustics,O,7.96
+499,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG + Guj. male (Small),,,2529.0,,121.392,,Gujarati,361,,17.328,138.72,0.12491349480968858,DTWMCD,Acoustics,O,7.9
+500,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG + other Guj. Female,,,2529.0,,121.392,,Gujarati,357,,17.136,138.528,0.12370062370062371,DTWMCD,Acoustics,O,6.96
+501,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG + Multispeaker Guj.,,,2529.0,,121.392,,Gujarati,994,,47.711999999999996,169.10399999999998,0.2821458983820607,DTWMCD,Acoustics,O,7.52
+502,L,S2S,Deep Voice 3,,Multi,,Baseline LJSpeech,,,1380.0,,66.24,,Gujarati,37,100.0,1.0,67.24,0.0148720999405116,DTWMCD,Acoustics,O,8.1
+503,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG (no Gujarati),,,2529.0,,121.392,,Gujarati,37,100.0,1.0,122.392,0.008170468658082228,DTWMCD,Acoustics,O,7.2
+504,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG,,,3510.0,,168.48,,Gujarati,37,100.0,1.0,169.48,0.0059004012272834555,DTWMCD,Acoustics,O,8.5
+505,L,S2S,Deep Voice 3,,Multi,,Baseline LJSpeech,,,1380.0,,66.24,,Gujarati,86,250.0,2.5,68.74,0.03636892638929299,DTWMCD,Acoustics,O,8.39
+506,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG (no Gujarati),,,2529.0,,121.392,,Gujarati,86,250.0,2.5,123.892,0.02017886546346818,DTWMCD,Acoustics,O,6.97
+507,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG,,,3510.0,,168.48,,Gujarati,86,250.0,2.5,170.98,0.014621593168791672,DTWMCD,Acoustics,O,8.17
+508,L,S2S,Deep Voice 3,,Multi,,Baseline LJSpeech,,,1380.0,,66.24,,Gujarati,172,500.0,5.0,71.24,0.07018528916339135,DTWMCD,Acoustics,O,8.13
+509,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG (no Gujarati),,,2529.0,,121.392,,Gujarati,172,500.0,5.0,126.392,0.039559465788973985,DTWMCD,Acoustics,O,6.9
+510,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG,,,3510.0,,168.48,,Gujarati,172,500.0,5.0,173.48,0.028821766197832607,DTWMCD,Acoustics,O,8.14
+511,L,S2S,Deep Voice 3,,Multi,,Baseline LJSpeech,,,1380.0,,66.24,,Gujarati,307,1104.0,11.04,77.28,0.14285714285714285,DTWMCD,Acoustics,O,7.9
+512,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG (no Gujarati),,,2529.0,,121.392,,Gujarati,307,1104.0,11.04,132.432,0.08336353751359188,DTWMCD,Acoustics,O,7.96
+513,L,S2S,Deep Voice 3,,Multi,,MLMSI-NG,,,3510.0,,168.48,,Gujarati,307,1104.0,11.04,179.51999999999998,0.06149732620320856,DTWMCD,Acoustics,O,7.52
+514,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.66
+515,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.7
+516,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.6
+517,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.72
+518,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.67
+519,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.7
+520,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.66
+521,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,Bengali,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.7
+522,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.83
+523,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.78
+524,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.8
+525,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.8
+526,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.8
+527,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.75
+528,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.75
+529,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,Finnish,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.8
+530,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.51
+531,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.61
+532,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.57
+533,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.49
+534,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.53
+535,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.52
+536,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.56
+537,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,Hungarian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.55
+538,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.86
+539,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.71
+540,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.7
+541,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.6
+542,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.68
+543,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.62
+544,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.56
+545,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,English (IN),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.7
+546,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.43
+547,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.42
+548,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.47
+549,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.47
+550,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.49
+551,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.48
+552,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.42
+553,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,English (US),x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.48
+554,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,3.34
+555,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,3.21
+556,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,3.24
+557,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,3.09
+558,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,3.23
+559,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,3.25
+560,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,3.1
+561,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,Marathi,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.92
+562,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.13
+563,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.26
+564,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.08
+565,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.06
+566,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.26
+567,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.05
+568,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.39
+569,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,Romanian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.35
+570,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.12
+571,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.05
+572,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.15
+573,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.07
+574,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.08
+575,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.11
+576,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.06
+577,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,Russian,x,2000.0,20.0,2612.0,0.007656967840735069,MOS,Naturalness/overall quality,S,3.11
+578,M,DNN,,,Multi,,B,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.75
+579,M,DNN,,,Multi,,B+G,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.82
+580,M,DNN,,,Multi,,B+U,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.83
+581,M,DNN,,,Multi,,B+D,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.74
+582,M,DNN,,,Multi,,B+N,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.8
+583,M,DNN,,,Multi,,B+U+D,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.74
+584,M,DNN,,,Multi,,B+G+U+D,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.77
+585,M,DNN,,,Multi,,B+G+U+D+N,,39 languages,54000.0,,2592.0,,Serbian,0,0.0,0.0,2592.0,0.0,MOS,Naturalness/overall quality,S,2.77
+586,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Indo-Aryan,Bengali,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.83
+587,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Indo-Aryan,Bengali,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.45
+588,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Indo-Aryan,Bengali,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.91
+589,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Indo-Aryan,Marathi,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.16
+590,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Indo-Aryan,Marathi,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.95
+591,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Indo-Aryan,Marathi,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.73
+592,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Indo-Aryan,Marathi,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.13
+593,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Dravidian,Tamil,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.78
+594,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Dravidian,Tamil,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.89
+595,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Dravidian,Tamil,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.68
+596,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Dravidian,Telugu,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.53
+597,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Dravidian,Telugu,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.5
+598,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Dravidian,Telugu,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.35
+599,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Finno-Ugric,Estonian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.55
+600,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Finno-Ugric,Estonian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.51
+601,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Finno-Ugric,Estonian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.17
+602,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Finno-Ugric,Estonian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.55
+603,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Germanic,Icelandic,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.78
+604,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Germanic,Icelandic,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.69
+605,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Germanic,Icelandic,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.3
+606,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Germanic,Icelandic,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.72
+607,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Baltic,Lithuanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.48
+608,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Baltic,Lithuanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.35
+609,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Baltic,Lithuanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.39
+610,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Baltic,Lithuanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.5
+611,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Romance,Romanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.69
+612,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Romance,Romanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.8
+613,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Romance,Romanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.74
+614,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Romance,Romanian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.7
+615,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Slavic,Serbian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.21
+616,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Slavic,Serbian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.25
+617,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Slavic,Serbian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.92
+618,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Slavic,Serbian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.23
+619,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovak,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.71
+620,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovak,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.39
+621,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovak,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.21
+622,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovak,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.66
+623,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovenian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.15
+624,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovenian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.1
+625,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovenian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.9
+626,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Slavic,Slovenian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.1
+627,N,DNN,,,Multi,,HD,,25 languages (37-12),31800.0,,1526.4,Slavic,Ukrainian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.08
+628,N,DNN,,,Multi,,HF,,25 languages (37-12),31800.0,,1526.4,Slavic,Ukrainian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.72
+629,N,DNN,,,Multi,,HM,,25 languages (37-12),31800.0,,1526.4,Slavic,Ukrainian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,2.83
+630,N,DNN,,,Multi,,HC,,25 languages (37-12),31800.0,,1526.4,Slavic,Ukrainian,0,0.0,0.0,1526.4,0.0,MOS,Naturalness/overall quality,S,3.17
+631,N,DNN,,,Multi,,IM,,37 languages,48000.0,,2304.0,Indo-Aryan,Bengali,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,4.06
+632,N,DNN,,,Multi,,IC,,37 languages,48000.0,,2304.0,Indo-Aryan,Bengali,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.88
+633,N,DNN,,,Multi,,ID,,37 languages,48000.0,,2304.0,Finno-Ugric,Estonian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.69
+634,N,DNN,,,Multi,,IF,,37 languages,48000.0,,2304.0,Finno-Ugric,Estonian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.53
+635,N,DNN,,,Multi,,IM,,37 languages,48000.0,,2304.0,Finno-Ugric,Estonian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.55
+636,N,DNN,,,Multi,,IC,,37 languages,48000.0,,2304.0,Finno-Ugric,Estonian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.71
+637,N,DNN,,,Multi,,IS,,37 languages,48000.0,,2304.0,Finno-Ugric,Estonian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.72
+638,N,DNN,,,Multi,,ID,,37 languages,48000.0,,2304.0,Germanic,Icelandic,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.86
+639,N,DNN,,,Multi,,IF,,37 languages,48000.0,,2304.0,Germanic,Icelandic,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.79
+640,N,DNN,,,Multi,,IM,,37 languages,48000.0,,2304.0,Germanic,Icelandic,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.8
+641,N,DNN,,,Multi,,ID,,37 languages,48000.0,,2304.0,Baltic,Lithuanian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.54
+642,N,DNN,,,Multi,,IF,,37 languages,48000.0,,2304.0,Baltic,Lithuanian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.44
+643,N,DNN,,,Multi,,IC,,37 languages,48000.0,,2304.0,Baltic,Lithuanian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.67
+644,N,DNN,,,Multi,,IS,,37 languages,48000.0,,2304.0,Baltic,Lithuanian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.52
+645,N,DNN,,,Multi,,ID,,37 languages,48000.0,,2304.0,Slavic,Slovak,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.85
+646,N,DNN,,,Multi,,IF,,37 languages,48000.0,,2304.0,Slavic,Slovak,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.68
+647,N,DNN,,,Multi,,IM,,37 languages,48000.0,,2304.0,Slavic,Slovak,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,2.6
+648,N,DNN,,,Multi,,IC,,37 languages,48000.0,,2304.0,Slavic,Slovak,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.7
+649,N,DNN,,,Multi,,IS,,37 languages,48000.0,,2304.0,Slavic,Slovak,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.84
+650,N,DNN,,,Multi,,ID,,37 languages,48000.0,,2304.0,Slavic,Ukrainian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.48
+651,N,DNN,,,Multi,,IF,,37 languages,48000.0,,2304.0,Slavic,Ukrainian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.48
+652,N,DNN,,,Multi,,IM,,37 languages,48000.0,,2304.0,Slavic,Ukrainian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.17
+653,N,DNN,,,Multi,,IC,,37 languages,48000.0,,2304.0,Slavic,Ukrainian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.41
+654,N,DNN,,,Multi,,IS,,37 languages,48000.0,,2304.0,Slavic,Ukrainian,x,2000.0,20.0,2324.0,0.008605851979345954,MOS,Naturalness/overall quality,S,3.41
+655,N,DNN,,,Mono,,,,,,,0.0,Indo-Aryan,Bengali,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,3.63
+656,N,DNN,,,Mono,,,,,,,0.0,Indo-Aryan,Marathi,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,1.26
+657,N,DNN,,,Mono,,,,,,,0.0,Dravidian,Tamil,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,2.65
+658,N,DNN,,,Mono,,,,,,,0.0,Dravidian,Telugu,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,3.26
+659,N,DNN,,,Mono,,,,,,,0.0,Finno-Ugric,Estonian,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,3.78
+660,N,DNN,,,Mono,,,,,,,0.0,Germanic,Icelandic,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,3.07
+661,N,DNN,,,Mono,,,,,,,0.0,Baltic,Lithuanian,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,1.85
+662,N,DNN,,,Mono,,,,,,,0.0,Slavic,Slovak,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,4.05
+663,N,DNN,,,Mono,,,,,,,0.0,Slavic,Ukrainian,,2000.0,20.0,20.0,1.0,MOS,Naturalness/overall quality,S,3.75
+664,O,HMM,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,LSD,Acoustics,O,5.16
+665,O,DNN,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,LSD,Acoustics,O,7.23
+666,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,LSD,Acoustics,O,5.94
+667,O,DNN,,,Multi,,,,Cantonese,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,LSD,Acoustics,O,5.84
+668,O,HMM,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,V/UV,Acoustics,O,7.9
+669,O,DNN,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,V/UV,Acoustics,O,11.3
+670,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,V/UV,Acoustics,O,8.9
+671,O,DNN,,,Multi,,,,Cantonese,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,V/UV,Acoustics,O,9.1
+672,O,HMM,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,F0 RMSE,Acoustics,O,21.3
+673,O,DNN,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,F0 RMSE,Acoustics,O,29.3
+674,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,F0 RMSE,Acoustics,O,22.5
+675,O,DNN,,,Multi,,,,Cantonese,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,F0 RMSE,Acoustics,O,23.1
+676,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,A/B Preference,Overall quality,S,0.43
+677,O,DNN,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,A/B Preference,Overall quality,S,0.32
+678,O,DNN,,,Multi,,,,Cantonese,,2000,20.0,,English,,550.0,5.5,25.5,0.21568627450980393,A/B Preference,Overall quality,S,0.47
+679,O,DNN,,,Mono,,,,,,,0.0,,English,,550.0,5.5,5.5,1.0,A/B Preference,Overall quality,S,0.3
+680,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,250.0,2.5,22.5,0.1111111111111111,LSD,Acoustics,O,6.89
+681,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,200.0,2.0,22.0,0.09090909090909091,LSD,Acoustics,O,7.29
+682,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,150.0,1.5,21.5,0.06976744186046512,LSD,Acoustics,O,8.17
+683,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,120.0,1.2,21.2,0.05660377358490566,LSD,Acoustics,O,9.23
+684,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,100.0,1.0,21.0,0.047619047619047616,LSD,Acoustics,O,9.81
+685,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,250.0,2.5,22.5,0.1111111111111111,V/UV,Acoustics,O,9.7
+686,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,200.0,2.0,22.0,0.09090909090909091,V/UV,Acoustics,O,11.2
+687,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,150.0,1.5,21.5,0.06976744186046512,V/UV,Acoustics,O,12.1
+688,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,120.0,1.2,21.2,0.05660377358490566,V/UV,Acoustics,O,12.9
+689,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,100.0,1.0,21.0,0.047619047619047616,V/UV,Acoustics,O,13.5
+690,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,250.0,2.5,22.5,0.1111111111111111,F0 RMSE,Acoustics,O,25.9
+691,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,200.0,2.0,22.0,0.09090909090909091,F0 RMSE,Acoustics,O,28.5
+692,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,150.0,1.5,21.5,0.06976744186046512,F0 RMSE,Acoustics,O,30.2
+693,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,120.0,1.2,21.2,0.05660377358490566,F0 RMSE,Acoustics,O,33.5
+694,O,DNN,,,Multi,,,,Mandarin,,2000,20.0,,English,,100.0,1.0,21.0,0.047619047619047616,F0 RMSE,Acoustics,O,35.2
+695,P,HSMM,,,Multi,,Baseline CSMAPLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.06
+696,P,HSMM,,,Multi,,Proposed CSMAPLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.055
+697,P,HSMM,,,Multi,,Baseline CMLLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.06
+698,P,HSMM,,,Multi,,Proposed CMLLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.055
+699,P,HSMM,,,Multi,,Baseline CSMAPLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.056
+700,P,HSMM,,,Multi,,Proposed CSMAPLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.053
+701,P,HSMM,,,Multi,,Baseline CMLLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.056
+702,P,HSMM,,,Multi,,Proposed CMLLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.053
+703,P,HSMM,,,Multi,,Baseline CSMAPLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.057
+704,P,HSMM,,,Multi,,Proposed CSMAPLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.052
+705,P,HSMM,,,Multi,,Baseline CMLLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.058
+706,P,HSMM,,,Multi,,Proposed CMLLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.052
+707,P,HSMM,,,Multi,,Baseline CSMAPLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.22
+708,P,HSMM,,,Multi,,Proposed CSMAPLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.09
+709,P,HSMM,,,Multi,,Baseline CMLLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.18
+710,P,HSMM,,,Multi,,Proposed CMLLR,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.1
+711,P,HSMM,,,Multi,,Baseline CSMAPLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.21
+712,P,HSMM,,,Multi,,Proposed CSMAPLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.08
+713,P,HSMM,,,Multi,,Baseline CMLLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.2
+714,P,HSMM,,,Multi,,Proposed CMLLR,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.085
+715,P,HSMM,,,Multi,,Baseline CSMAPLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.21
+716,P,HSMM,,,Multi,,Proposed CSMAPLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.07
+717,P,HSMM,,,Multi,,Baseline CMLLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.19
+718,P,HSMM,,,Multi,,Proposed CMLLR,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.075
+719,P,HSMM,,,Multi,,Baseline,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.06
+720,P,HSMM,,,Multi,,Proposed SM,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.055
+721,P,HSMM,,,Multi,,L2NN,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.04
+722,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.0345
+723,P,HSMM,,,Multi,,eigenEn 2PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.032
+724,P,HSMM,,,Multi,,WLS 3PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.0345
+725,P,HSMM,,,Multi,,eigenEn 3PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.032
+726,P,HSMM,,,Multi,,WLS 10PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.0345
+727,P,HSMM,,,Multi,,eigenEn 10PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,MGC RMSE,Acoustics,O,0.03
+728,P,HSMM,,,Multi,,Baseline,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.056
+729,P,HSMM,,,Multi,,Proposed SM,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.052
+730,P,HSMM,,,Multi,,L2NN,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.04
+731,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.0345
+732,P,HSMM,,,Multi,,eigenEn 2PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.032
+733,P,HSMM,,,Multi,,WLS 3PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.0345
+734,P,HSMM,,,Multi,,eigenEn 3PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.032
+735,P,HSMM,,,Multi,,WLS 10PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.0345
+736,P,HSMM,,,Multi,,eigenEn 10PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,MGC RMSE,Acoustics,O,0.03
+737,P,HSMM,,,Multi,,Baseline,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.0575
+738,P,HSMM,,,Multi,,Proposed SM,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.052
+739,P,HSMM,,,Multi,,L2NN,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.04
+740,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.0345
+741,P,HSMM,,,Multi,,eigenEn 2PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.032
+742,P,HSMM,,,Multi,,WLS 3PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.0345
+743,P,HSMM,,,Multi,,eigenEn 3PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.032
+744,P,HSMM,,,Multi,,WLS 10PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.0345
+745,P,HSMM,,,Multi,,eigenEn 10PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,MGC RMSE,Acoustics,O,0.029
+746,P,HSMM,,,Multi,,Baseline,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.18
+747,P,HSMM,,,Multi,,Proposed SM,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.095
+748,P,HSMM,,,Multi,,L2NN,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.097
+749,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.12
+750,P,HSMM,,,Multi,,eigenEn 2PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.08
+751,P,HSMM,,,Multi,,WLS 3PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.12
+752,P,HSMM,,,Multi,,eigenEn 3PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.08
+753,P,HSMM,,,Multi,,WLS 10PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.12
+754,P,HSMM,,,Multi,,eigenEn 10PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,LF0 RMSE,Acoustics,O,0.08
+755,P,HSMM,,,Multi,,Baseline,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.2
+756,P,HSMM,,,Multi,,Proposed SM,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.08
+757,P,HSMM,,,Multi,,L2NN,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.09
+758,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.12
+759,P,HSMM,,,Multi,,eigenEn 2PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.065
+760,P,HSMM,,,Multi,,WLS 3PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.12
+761,P,HSMM,,,Multi,,eigenEn 3PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.065
+762,P,HSMM,,,Multi,,WLS 10PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.12
+763,P,HSMM,,,Multi,,eigenEn 10PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,LF0 RMSE,Acoustics,O,0.068
+764,P,HSMM,,,Multi,,Baseline,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.195
+765,P,HSMM,,,Multi,,Proposed SM,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.075
+766,P,HSMM,,,Multi,,L2NN,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.085
+767,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.12
+768,P,HSMM,,,Multi,,eigenEn 2PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.06
+769,P,HSMM,,,Multi,,WLS 3PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.12
+770,P,HSMM,,,Multi,,eigenEn 3PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.06
+771,P,HSMM,,,Multi,,WLS 10PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.12
+772,P,HSMM,,,Multi,,eigenEn 10PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,LF0 RMSE,Acoustics,O,0.06
+773,P,HSMM,,,Multi,,baseline,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,A/B Preference,Overall quality,S,0.08
+774,P,HSMM,,,Multi,,proposed SM,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,A/B Preference,Overall quality,S,0.78
+775,P,HSMM,,,Multi,,baseline,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,A/B Preference,Overall quality,S,0.2
+776,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,2.0,0.02,98.61999999999999,0.00020279862096937745,A/B Preference,Overall quality,S,0.55
+777,P,HSMM,,,Multi,,baseline,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,A/B Preference,Overall quality,S,0.1
+778,P,HSMM,,,Multi,,proposed SM,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,A/B Preference,Overall quality,S,0.78
+779,P,HSMM,,,Multi,,baseline,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,A/B Preference,Overall quality,S,0.29
+780,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,5.0,0.05,98.64999999999999,0.0005068423720223012,A/B Preference,Overall quality,S,0.51
+781,P,HSMM,,,Multi,,baseline,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,A/B Preference,Overall quality,S,0.05
+782,P,HSMM,,,Multi,,proposed SM,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,A/B Preference,Overall quality,S,0.78
+783,P,HSMM,,,Multi,,baseline,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,A/B Preference,Overall quality,S,0.3
+784,P,HSMM,,,Multi,,WLS 2PCA,,Turkish,,9860,98.6,,English,,10.0,0.1,98.69999999999999,0.0010131712259371835,A/B Preference,Overall quality,S,0.41
+785,Q,DNN,,,Mono,,baseline,,,,,0.0,,US English,,35493.0,354.93,354.93,1.0,MSE,Acoustics,O,27
+786,Q,DNN,,,Multi,,rand,,5 languages,,136870,1368.7,,US English,,35493.0,354.93,1723.63,0.20592006405086938,MSE,Acoustics,O,27.5
+787,Q,DNN,,,Multi,,1-hot (init),,5 languages,,136870,1368.7,,US English,,35493.0,354.93,1723.63,0.20592006405086938,MSE,Acoustics,O,27.7
+788,Q,DNN,,,Multi,,1-hot (fixed),,5 languages,,136870,1368.7,,US English,,35493.0,354.93,1723.63,0.20592006405086938,MSE,Acoustics,O,27.8
+789,Q,DNN,,,Mono,,baseline,,,,,0.0,,UK English,,21403.0,214.03,214.03,1.0,MSE,Acoustics,O,28.5
+790,Q,DNN,,,Multi,,rand,,5 languages,,150960,1509.6,,UK English,,21403.0,214.03,1723.6299999999999,0.12417398165499557,MSE,Acoustics,O,28.5
+791,Q,DNN,,,Multi,,1-hot (init),,5 languages,,150960,1509.6,,UK English,,21403.0,214.03,1723.6299999999999,0.12417398165499557,MSE,Acoustics,O,28.8
+792,Q,DNN,,,Multi,,1-hot (fixed),,5 languages,,150960,1509.6,,UK English,,21403.0,214.03,1723.6299999999999,0.12417398165499557,MSE,Acoustics,O,28.8
+793,Q,DNN,,,Mono,,baseline,,,,,0.0,,French,,29924.0,299.24,299.24,1.0,MSE,Acoustics,O,29
+794,Q,DNN,,,Multi,,rand,,5 languages,,142439,1424.39,,French,,29924.0,299.24,1723.63,0.17361034560781605,MSE,Acoustics,O,29.2
+795,Q,DNN,,,Multi,,1-hot (init),,5 languages,,142439,1424.39,,French,,29924.0,299.24,1723.63,0.17361034560781605,MSE,Acoustics,O,29.7
+796,Q,DNN,,,Multi,,1-hot (fixed),,5 languages,,142439,1424.39,,French,,29924.0,299.24,1723.63,0.17361034560781605,MSE,Acoustics,O,29.3
+797,Q,DNN,,,Mono,,baseline,,,,,0.0,,Italian,,29897.0,298.97,298.97,1.0,MSE,Acoustics,O,30.3
+798,Q,DNN,,,Multi,,rand,,5 languages,,142466,1424.66,,Italian,,29897.0,298.97,1723.63,0.1734536994598609,MSE,Acoustics,O,30.8
+799,Q,DNN,,,Multi,,1-hot (init),,5 languages,,142466,1424.66,,Italian,,29897.0,298.97,1723.63,0.1734536994598609,MSE,Acoustics,O,30.9
+800,Q,DNN,,,Multi,,1-hot (fixed),,5 languages,,142466,1424.66,,Italian,,29897.0,298.97,1723.63,0.1734536994598609,MSE,Acoustics,O,30.8
+801,Q,DNN,,,Mono,,baseline,,,,,0.0,,German,,24535.0,245.35,245.35,1.0,MSE,Acoustics,O,28.9
+802,Q,DNN,,,Multi,,rand,,5 languages,,147828,1478.28,,German,,24535.0,245.35,1723.6299999999999,0.14234493481779734,MSE,Acoustics,O,29.3
+803,Q,DNN,,,Multi,,1-hot (init),,5 languages,,147828,1478.28,,German,,24535.0,245.35,1723.6299999999999,0.14234493481779734,MSE,Acoustics,O,29.2
+804,Q,DNN,,,Multi,,1-hot (fixed),,5 languages,,147828,1478.28,,German,,24535.0,245.35,1723.6299999999999,0.14234493481779734,MSE,Acoustics,O,29.2
+805,Q,DNN,,,Mono,,baseline,,,,,0.0,,Spanish,,19872.0,198.72,198.72,1.0,MSE,Acoustics,O,26.9
+806,Q,DNN,,,Multi,,rand,,5 languages,,152491,1524.91,,Spanish,,19872.0,198.72,1723.63,0.11529156489501806,MSE,Acoustics,O,27.5
+807,Q,DNN,,,Multi,,1-hot (init),,5 languages,,152491,1524.91,,Spanish,,19872.0,198.72,1723.63,0.11529156489501806,MSE,Acoustics,O,27.5
+808,Q,DNN,,,Multi,,1-hot (fixed),,5 languages,,152491,1524.91,,Spanish,,19872.0,198.72,1723.63,0.11529156489501806,MSE,Acoustics,O,27.6
+809,Q,DNN,,,Mono,,baseline,,,,,0.0,,Polish,,900.0,9.0,9.0,1.0,MSE,Acoustics,O,32.1
+810,Q,DNN,,,Multi,,v1,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,35.1
+811,Q,DNN,,,Multi,,v2,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,31
+812,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,30.8
+813,Q,DNN,,,Multi,,v4,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,31.5
+814,Q,DNN,,,Mono,,baseline,,,,,0.0,,Portuguese,,900.0,9.0,9.0,1.0,MSE,Acoustics,O,32.2
+815,Q,DNN,,,Multi,,v1,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,35.5
+816,Q,DNN,,,Multi,,v2,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,31
+817,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,31.05
+818,Q,DNN,,,Multi,,v4,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,MSE,Acoustics,O,31.8
+819,Q,DNN,,,Mono,,baseline,,,,,0.0,,Polish,,900.0,9.0,9.0,1.0,A/B Preference,Overall quality,S,0.311
+820,Q,DNN,,,Multi,,v2,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.383
+821,Q,DNN,,,Mono,,baseline,,,,,0.0,,Polish,,900.0,9.0,9.0,1.0,A/B Preference,Overall quality,S,0.3
+822,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.415
+823,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.331
+824,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Polish,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.398
+825,Q,DNN,,,Mono,,baseline,,,,,0.0,,Portuguese,,900.0,9.0,9.0,1.0,A/B Preference,Overall quality,S,0.144
+826,Q,DNN,,,Multi,,v2,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.234
+827,Q,DNN,,,Mono,,baseline,,,,,0.0,,Portuguese,,900.0,9.0,9.0,1.0,A/B Preference,Overall quality,S,0.133
+828,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.256
+829,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.104
+830,Q,DNN,,,Multi,,v3,,6 languages,,172363,1723.63,,Portuguese,,900.0,9.0,1732.63,0.005194415426259501,A/B Preference,Overall quality,S,0.104
+831,R,HMM,,,Multi,,baseline UR,,English,315.0,5653,56.53,,Slovenian,2,31.0,0.31,56.84,0.0054539057002111185,A/B Preference,Overall quality,S,0.6364
+832,R,HMM,,,Multi,,automatic mapping AM,,English,315.0,5653,56.53,,Slovenian,2,31.0,0.31,56.84,0.0054539057002111185,A/B Preference,Overall quality,S,0.2545
+833,R,HMM,,,Multi,,expert mapping MM,,English,315.0,5653,56.53,,Slovenian,2,31.0,0.31,56.84,0.0054539057002111185,A/B Preference,Overall quality,S,0.5545
+834,R,HMM,,,Multi,,automatic mapping AM,,English,315.0,5653,56.53,,Slovenian,2,31.0,0.31,56.84,0.0054539057002111185,A/B Preference,Overall quality,S,0.3
+835,S,HMM,,,Multi,,SD,,Chinese,,1316,13.16,,Tibetan,,10.0,0.1,13.26,0.007541478129713425,MOS,Naturalness/overall quality,S,1.31
+836,S,HMM,,,Multi,,SD,,Chinese,,1316,13.16,,Tibetan,,100.0,1.0,14.16,0.07062146892655367,MOS,Naturalness/overall quality,S,1.99
+837,S,HMM,,,Multi,,SD,,Chinese,,1316,13.16,,Tibetan,,700.0,7.0,20.16,0.3472222222222222,MOS,Naturalness/overall quality,S,4.13
+838,S,HMM,,,Multi,,SI,,Chinese,,1316,13.16,,Tibetan,,10.0,0.1,13.26,0.007541478129713425,MOS,Naturalness/overall quality,S,2.49
+839,S,HMM,,,Multi,,SI,,Chinese,,1316,13.16,,Tibetan,,100.0,1.0,14.16,0.07062146892655367,MOS,Naturalness/overall quality,S,3.04
+840,S,HMM,,,Multi,,SI,,Chinese,,1316,13.16,,Tibetan,,700.0,7.0,20.16,0.3472222222222222,MOS,Naturalness/overall quality,S,4.07
+841,S,HMM,,,Multi,,SAT,,Chinese,,1316,13.16,,Tibetan,,10.0,0.1,13.26,0.007541478129713425,MOS,Naturalness/overall quality,S,3.88
+842,S,HMM,,,Multi,,SAT,,Chinese,,1316,13.16,,Tibetan,,100.0,1.0,14.16,0.07062146892655367,MOS,Naturalness/overall quality,S,3.91
+843,S,HMM,,,Multi,,SAT,,Chinese,,1316,13.16,,Tibetan,,700.0,7.0,20.16,0.3472222222222222,MOS,Naturalness/overall quality,S,4.03
+844,T,HMM,,,Multi,,Malay TTS1,,English,,1132,11.32,,Malaysian,,1000.0,10.0,21.32,0.46904315196998125,MOS,Naturalness/overall quality,S,3.5
+845,T,HMM,,,Multi,,Malay TTS2,,English,,1132,11.32,,Malaysian,,1000.0,10.0,21.32,0.46904315196998125,MOS,Naturalness/overall quality,S,3.7
+846,T,HMM,,,Multi,,Malay HMM-based,,English,,1132,11.32,,Malaysian,,1000.0,10.0,21.32,0.46904315196998125,MOS,Naturalness/overall quality,S,4.05
+847,U,Unit selection,,,Mono,,,,,,,0.0,,English,,,0.0,0.0,,A/B Preference,Overall quality,S,0.75
+848,U,Unit selection,,,Multi,,,,,,,0.0,,English,,,0.0,0.0,,A/B Preference,Overall quality,S,0.19
+849,U,Unit selection,,,Mono,,,,,,,0.0,,English,,,0.0,0.0,,A/B Preference,Overall quality,S,0.48
+850,U,Unit selection,,,Multi,,,,,,,0.0,,English,,,0.0,0.0,,A/B Preference,Overall quality,S,0.47
+851,U,Unit selection,,,Mono,,,,,,,0.0,,Spanish,,,0.0,0.0,,A/B Preference,Overall quality,S,0.98
+852,U,Unit selection,,,Multi,,,,,,,0.0,,Spanish,,,0.0,0.0,,A/B Preference,Overall quality,S,0
+853,U,Unit selection,,,Mono,,,,,,,0.0,,Spanish,,,0.0,0.0,,A/B Preference,Overall quality,S,0.98
+854,U,Unit selection,,,Multi,,,,,,,0.0,,Spanish,,,0.0,0.0,,A/B Preference,Overall quality,S,0
+855,U,Unit selection,,,Mono,,,,,,,0.0,,Malaysian,,,0.0,0.0,,A/B Preference,Overall quality,S,0.76
+856,U,Unit selection,,,Multi,,P1,,,,,0.0,,Malaysian,,,0.0,0.0,,A/B Preference,Overall quality,S,0.17
+857,U,Unit selection,,,Multi,,P2,,,,,0.0,,Malaysian,,,0.0,0.0,,A/B Preference,Overall quality,S,0.05
+858,U,Unit selection,,,Mono,,,,,,,0.0,,Malaysian,,,0.0,0.0,,A/B Preference,Overall quality,S,0.26
+859,U,Unit selection,,,Multi,,P1,,,,,0.0,,Malaysian,,,0.0,0.0,,A/B Preference,Overall quality,S,0.41
+860,U,Unit selection,,,Multi,,P2,,,,,0.0,,Malaysian,,,0.0,0.0,,A/B Preference,Overall quality,S,0.26
+861,V,HMM,,,Multi,,Male,,,,,0.0,,Malaysian,240,1000.0,10.0,10.0,1.0,Intelligibility,Intelligibility,O,0.9933
+862,V,HMM,,,Multi,,Female,,,,,0.0,,,,,0.0,0.0,,Intelligibility,Intelligibility,O,0.9911
+863,W,HMM,,,Mono,,Mono phone mapping synth,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,2.2
+864,W,HMM,,,Mono,,Mono phone mapping adapt,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,3.3
+865,W,HMM,,,Multi,,Polyglot cross,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,3.8
+866,W,HMM,,,?,,Vocoder,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,4.3
+867,W,HMM,,,Mono,,Mono phone mapping synth,,,,,0.0,,French,463,,22.224,22.224,1.0,MOS,Naturalness/overall quality,S,2.6
+868,W,HMM,,,Multi,,Polyglot phone mapping synth,,,,,0.0,,French,463,,22.224,22.224,1.0,MOS,Naturalness/overall quality,S,3.2
+869,W,HMM,,,Mono,,Mono phone mapping synth,,,,,0.0,,German,334,,16.032,16.032,1.0,MOS,Naturalness/overall quality,S,1.3
+870,W,HMM,,,Multi,,Polyglot phone mapping synth,,,,,0.0,,German,334,,16.032,16.032,1.0,MOS,Naturalness/overall quality,S,3.3
+871,W,HMM,,,Mono,,Mono phone mapping synth,,,,,0.0,,Russian,306,,14.687999999999999,14.687999999999999,1.0,MOS,Naturalness/overall quality,S,1.8
+872,W,HMM,,,Multi,,Polyglot phone mapping synth,,,,,0.0,,Russian,306,,14.687999999999999,14.687999999999999,1.0,MOS,Naturalness/overall quality,S,3.4
+873,W,HMM,,,Mono,,Mono phone mapping synth,,,,,0.0,,Spanish,316,,15.168,15.168,1.0,MOS,Naturalness/overall quality,S,3.1
+874,W,HMM,,,Multi,,Polyglot phone mapping synth,,,,,0.0,,Spanish,316,,15.168,15.168,1.0,MOS,Naturalness/overall quality,S,3.3
+875,W,HMM,,,Mono,,Mono phone mapping synth,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,2.2
+876,W,HMM,,,Multi,,Polyglot phone mapping synth,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,3.3
+877,W,HMM,,,Multi,,Direct synthesis polyglot cross,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,3.8
+878,W,HMM,,,Multi,,Direct synthesis polyglot direct,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,4
+879,W,HMM,,,Mono,,Direct synthesis mono direct,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,4.3
+880,W,HMM,,,?,,Vocoder,,,,,0.0,,TOTAL,,,0.0,0.0,,MOS,Naturalness/overall quality,S,4.3
