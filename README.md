@@ -1,3 +1,1 @@
-TODO:
-- Source code FastSpeech 2 as used in the experiments (including feature-input implementation)
-- Source code phone mapping method
+24-03-25: To be updated in the next few days, sorry for the inconvenience!
