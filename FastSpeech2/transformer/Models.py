@@ -85,6 +85,7 @@ class Encoder(nn.Module):
                 src_seq.device
             )
         else:
+            src_seq = src_seq.type(torch.float32) # for compatibility with phonological features
             enc_output = self.src_word_emb(src_seq) + self.position_enc[
                 :, :max_len, :
             ].expand(batch_size, -1, -1)

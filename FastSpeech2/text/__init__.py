@@ -11,8 +11,8 @@ _id_to_symbol = {i: s for i, s in enumerate(symbols)}
 # Regular expression matching text enclosed in curly braces:
 _curly_re = re.compile(r"(.*?)\{(.+?)\}(.*)")
 
-# with open('text/phoible_dict.pkl', 'rb') as readfile: # comes from phoible_prepare.py
-# 	phoible_dict = pickle.load(readfile)
+with open('text/phoible_dict.pkl', 'rb') as readfile: # comes from phoible_prepare.py
+	phoible_dict = pickle.load(readfile)
 
 def phoible_filter(text):
     dic = {
