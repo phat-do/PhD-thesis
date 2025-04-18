@@ -2,6 +2,8 @@
 
 This is the repository to accompany the PhD thesis of Phat Do titled **Praat mar Frysk (mei amper data): Speech Synthesis for Low-Resource Languages with Cross-Lingual Transfer Learning** at Campus Fryslân, University of Groningen. This repo details the source code and data (to the extent possible) of the experiments described in the thesis. For the open-access, open-data, and open-source implementation of Frisian TTS (from **Chapter 7**), please refer to [https://huggingface.co/spaces/phatdo/Frysk-TTS](https://huggingface.co/spaces/phatdo/Frysk-TTS).
 
+Please kindly reach out to [t.p.do@rug.nl](t.p.do@rug.nl) for further inquiries or if you run into any issues.
+
 ![](./assets/Friesland.png)
 
 # Structure
