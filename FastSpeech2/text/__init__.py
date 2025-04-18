@@ -1,6 +1,5 @@
 """ from https://github.com/keithito/tacotron """
-import re, pickle
-import torch
+import re
 
 from text import cleaners
 from text.symbols import symbols
@@ -12,65 +11,31 @@ _id_to_symbol = {i: s for i, s in enumerate(symbols)}
 # Regular expression matching text enclosed in curly braces:
 _curly_re = re.compile(r"(.*?)\{(.+?)\}(.*)")
 
-with open('text/phoible_dict.pkl', 'rb') as readfile: # comes from phono_features/phono_features.py
-	phoible_dict = pickle.load(readfile)
-
-def phoible_filter(text):
-    dic = {
-        # remove tie bar
-        't͡': 't',
-        'd͡': 'd',
-
-         # looks the same but actually different
-        'ç': 'ç', 
-        'ã': 'ã', 
-        'ũ': 'ũ', 
-        'ĩː': 'ĩː', 
-        'õ': 'õ', 
-        'ẽː':'ẽː', 
-        'ẽ':'ẽ', 
-        'g': 'ɡ', 
-        
-        # separate rhotic diacritic
-        'ɝ': 'ə˞',
-        'ɜ˞': 'ə˞',
-        'ɚ': 'ə˞',
-
-        # others
-        'tɕʲ':'tɕ',
-        'd͡ʒʱ':'dʒ',
-        'dʒ̤':'d̤ʒ̤',
-        'dʒʱ':'dʒ',
-        'd͡ʒ̤':'d̤ʒ̤',
-        'ɽ̥':'ɽ',
-        'ʂʲː':'ʂ',
-        'eʱ': 'eʰ',
-        'ɫ̩': 'ɫ',
-        'ɫː': 'ɫ',
-
-        # too rare
-        'ɕːʲ': 'ɕː',
-        'd̪ᵊ':'d̪',
-        'ˈɾ':'ɾ',
-        }
-    
-    for k, v in dic.items():
-        text = re.sub(k, v, text)
-    
-    return text
-
 def text_to_sequence(text, cleaner_names):
-    
-    text = text.strip("{}")
-    text = phoible_filter(text)
-    
-    sequence = torch.zeros((37)).unsqueeze(0) # initialize with the right dimention
-    
-    for phone in text.split(" "):
-        temp = phoible_dict[phone].unsqueeze(0)
-        sequence = torch.cat((sequence, temp), 0)
+    """Converts a string of text to a sequence of IDs corresponding to the symbols in the text.
 
-    sequence = sequence[1:, :] # get rid of first index: all zeros
+    The text can optionally have ARPAbet sequences enclosed in curly braces embedded
+    in it. For example, "Turn left on {HH AW1 S S T AH0 N} Street."
+
+    Args:
+      text: string to convert to a sequence
+      cleaner_names: names of the cleaner functions to run the text through
+
+    Returns:
+      List of integers corresponding to the symbols in the text
+    """
+    sequence = []
+
+    # Check for curly braces and treat their contents as ARPAbet:
+    while len(text):
+        m = _curly_re.match(text)
+
+        if not m:
+            sequence += _symbols_to_sequence(_clean_text(text, cleaner_names))
+            break
+        sequence += _symbols_to_sequence(_clean_text(m.group(1), cleaner_names))
+        sequence += _arpabet_to_sequence(m.group(2))
+        text = m.group(3)
 
     return sequence
 

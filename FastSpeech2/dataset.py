@@ -103,7 +103,7 @@ class Dataset(Dataset):
         mel_lens = np.array([mel.shape[0] for mel in mels])
 
         speakers = np.array(speakers)
-        texts = pad_2D(texts) # 2D instead of 1D for phono_features
+        texts = pad_1D(texts)
         mels = pad_2D(mels)
         pitches = pad_1D(pitches)
         energies = pad_1D(energies)

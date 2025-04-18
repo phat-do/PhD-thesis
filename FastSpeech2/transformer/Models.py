@@ -53,7 +53,9 @@ class Encoder(nn.Module):
         self.max_seq_len = config["max_seq_len"]
         self.d_model = d_model
 
-        self.src_word_emb = nn.Linear(37, d_word_vec) # 37 is the dimensionality of PHOIBLE
+        self.src_word_emb = nn.Embedding(
+        n_src_vocab, d_word_vec, padding_idx=Constants.PAD
+        )
 
         self.position_enc = nn.Parameter(
             get_sinusoid_encoding_table(n_position, d_word_vec).unsqueeze(0),
