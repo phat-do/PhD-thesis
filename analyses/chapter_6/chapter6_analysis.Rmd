@@ -1,0 +1,101 @@
+---
+title: "Chapter 6's analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+library(glue)
+library(lmerTest)
+```
+# Q2ab (Section 6.7)
+
+Load the dataframe for Q6ab into the environment. The data comes from other processes/calculations and is already combined into the provided `.tsv` file.
+```{r}
+data = read.csv('chapter6_data.tsv', sep='\t')
+
+# here we call both phone mapping and feature input "mapping" (type) for convenience
+data$mapping <- factor(data$mapping, levels = c("nomap", "withmap", "feature"))
+
+# preprocess the data a bit
+data$cer_synth = data$cer_synth * 100
+data$cer_relative_to_nomap = data$cer_relative_to_nomap * 100
+data$dataset_aspf_v2 = data$dataset_aspf_v2 * 100
+data$sent_aspf = data$sent_aspf * 100
+data$cer_increase_from_gt = data$cer_increase_from_gt * 100
+```
+
+The following block corresponds to the `CER` results in Table 6.3
+```{r}
+target_langs <- list("bg", "ka", "kk", "sw", "ur", "uz")
+source_langs <- list("en", "fi", "hi", "ja", "ru")
+
+for (tgt_lang in target_langs) {
+    for (src_lang in source_langs) {
+        # subset the data
+        temp_data = subset(data, (target_lang == tgt_lang) & (source_lang == src_lang))
+        
+        # model and null-model
+        m <- lmer('cer_synth ~ mapping + (1|filename)', data=temp_data, REML=FALSE)
+        mnul <- lmer('cer_synth ~ 1 + (1|filename)', data=temp_data, REML=FALSE)
+        significance <- anova(m, mnul)[2, 'Pr(>Chisq)']
+        
+        # print out
+        print(glue("TARGET: {tgt_lang}, SOURCE: {src_lang}, SIGNIFICANCE: {significance}"))
+        print(coef(summary(m)))
+    }
+}
+```
+
+The following block corresponds to Table 6.4
+```{r}
+for (tgt_lang in target_langs) {
+    # subset the data
+    temp_withmap = subset(data, (target_lang == tgt_lang) & (mapping == 'withmap'))
+    temp_feature = subset(data, (target_lang == tgt_lang) & (mapping == 'feature'))
+    
+    # calculate
+    diff = median(temp_withmap$cer_synth) - median(temp_feature$cer_synth)
+    value = wilcox.test(temp_withmap$cer_synth, temp_feature$cer_synth, alternative='greater')$p.value
+    
+    # printout
+    print(glue("TARGET: {tgt_lang}, Difference in median CER (CER_map - CER_feature): {diff}, Wilcoxon test: {value}"))
+  }
+
+```
+
+The following blocks corresponds to Table 6.5
+```{r, message=FALSE, warning=FALSE}
+mapping_types <- list('nomap', 'withmap', 'feature')
+
+for (mapping_type in mapping_types) {
+    # subset the data
+    temp_data = subset(data, mapping == mapping_type)
+    print(glue("MAPPING: {mapping_type}"))
+    
+    # calculate for ASPF
+    m <- lmer('cer_increase_from_gt ~ dataset_aspf_v2 + (1+dataset_aspf_v2|filename)', data=temp_data, REML=FALSE)
+    mnul <- lmer('cer_increase_from_gt ~ 1 + (1+dataset_aspf_v2|filename)', data=temp_data, REML=FALSE)
+
+    significance = anova(m, mnul)[2, 'Pr(>Chisq)']
+    effect = fixef(m)['dataset_aspf_v2']
+    
+    # printout
+    print(glue("ASPF'S EFFECT: {effect}, SIGNIFICANCE: {significance}"))
+    
+    # calculate for tree distance
+    m <- lmer('cer_increase_from_gt ~ distance_1 + (1+distance_1|filename)', data=temp_data, REML=FALSE)
+    mnul <- lmer('cer_increase_from_gt ~ 1 + (1+distance_1|filename)', data=temp_data, REML=FALSE)
+
+    significance = anova(m, mnul)[2, 'Pr(>Chisq)']
+    effect = fixef(m)['distance_1']
+    
+    # printout
+    print(glue("TREE DISTANCE'S EFFECT: {effect}, SIGNIFICANCE: {significance}"))
+  }
+
+```
+

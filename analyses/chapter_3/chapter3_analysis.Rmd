@@ -1,0 +1,145 @@
+---
+title: "Chapter 3's analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, message=FALSE}
+library("dplyr")
+library("glue")
+library("ggpubr")
+library("lmerTest")
+```
+
+# Q2a (Section 3.5.1)
+
+Load the dataframe for Q2a into the environment. The data comes from other processes/calculations and is already combined into the provided `.csv` files.
+```{r}
+naturalness = read.csv('naturalness.csv')
+accuracy = read.csv('accuracy.csv')
+
+# preprocess the data a bit
+naturalness$type = factor(naturalness$type, levels = c("separate", "mapped"))
+accuracy$type = factor(accuracy$type, levels = c("separate", "mapped"))
+naturalness$sent_id = as.factor(naturalness$sent_id)
+accuracy$sent_id = as.factor(accuracy$sent_id)
+naturalness$same_big_family = as.factor(naturalness$same_big_family)
+accuracy$same_big_family = as.factor(accuracy$same_big_family)
+```
+
+The following block corresponds to the results in Table 3.3
+
+```{r, results="hold"}
+languages = list('nl', 'fi', 'fr', 'es', 'ja')
+
+for (lang in languages) {
+    print(glue("LANGUAGE: {lang}"))
+  
+    # naturalness
+    print("NATURALNESS")
+    
+    map = naturalness[(naturalness$source_lang == lang) & (naturalness$type == 'mapped'), ]$score
+    sep = naturalness[(naturalness$source_lang == lang) & (naturalness$type == 'separate'), ]$score
+    diff = median(map) - median(sep)
+    value = wilcox.test(map, sep, paired=TRUE)$p.value
+    
+    # print out
+    print(glue("Difference in median score (map - sep): {diff}, Wilcoxon test: {value}"))
+    
+    # accuracy
+    print("ACCURACY")
+    
+    map = accuracy[(accuracy$source_lang == lang) & (accuracy$type == 'mapped'), ]$score
+    sep = accuracy[(accuracy$source_lang == lang) & (accuracy$type == 'separate'), ]$score
+    diff = median(map) - median(sep)
+    value = wilcox.test(map, sep, paired=TRUE)$p.value
+    
+    # print out
+    print(glue("Difference in median score (map - sep): {diff}, Wilcoxon test: {value}"))
+}
+```
+
+The following block corresponds to the analysis that follows Table 3.3
+```{r, results="hold"}
+
+print("NATURALNESS")
+model = lmer(score ~ type + (1|participant) + (1|sent_id), data=naturalness, REML=FALSE)
+model.null = lmer(score ~ 1 + (1|participant) + (1|sent_id), data=naturalness, REML=FALSE)
+anova(model, model.null)[2, 'Pr(>Chisq)']
+fixef(model)['typemapped']
+
+print("ACCURACY")
+model = lmer(score ~ type + (1|participant) + (1|sent_id), data=accuracy, REML=FALSE)
+model.null = lmer(score ~ 1 + (1|participant) + (1|sent_id), data=accuracy, REML=FALSE)
+anova(model, model.null)[2, 'Pr(>Chisq)']
+fixef(model)['typemapped']
+```
+
+# Q2b (Section 3.5.2)
+
+The following blocks correspond to the analysis that precedes Table 3.4
+```{r, results="hold"}
+
+print("NATURALNESS")
+
+model.null = lmer(score ~ 1 + (1|participant)  + (1|sent_id), data=naturalness, REML=FALSE)
+model.1 = lmer(score ~ sent_similarity + (1|participant) + (1|sent_id), data=naturalness, REML=FALSE)
+print(glue("ASPF ALONE, EFFECT: {fixef(model.1)['sent_similarity']}, SIGNIFICANCE: {anova(model.null, model.1)[2, 'Pr(>Chisq)']}"))
+model.2 = lmer(score ~ same_big_family + (1|participant) + (1|sent_id), data=naturalness, REML=FALSE)
+print(glue("SAME_FAMILY ALONE, EFFECT: {fixef(model.2)['same_big_family_True']}, SIGNIFICANCE: {anova(model.null, model.2)[2, 'Pr(>Chisq)']}"))
+model.3 = lmer(score ~ same_big_family + sent_similarity + (1|participant) + (1|sent_id), data=naturalness, REML=FALSE)
+print(glue("ASPF ALONE vs. BOTH, SIGNIFICANCE: {anova(model.1, model.3)[2, 'Pr(>Chisq)']}"))
+print(glue("SAME_FAMILY ALONE vs. BOTH, SIGNIFICANCE: {anova(model.2, model.3)[2, 'Pr(>Chisq)']}"))
+
+print("CONCLUSION")
+print(glue("ASPF ALONE, EFFECT: {fixef(model.3)['sent_similarity']}"))
+```
+
+```{r, results="hold"}
+print("ACCURACY")
+
+model.null = lmer(score ~ 1 + (1|participant)  + (1|sent_id), data=accuracy, REML=FALSE)
+model.1 = lmer(score ~ sent_similarity + (1|participant) + (1|sent_id), data=accuracy, REML=FALSE)
+print(glue("ASPF ALONE, EFFECT: {fixef(model.1)['sent_similarity']}, SIGNIFICANCE: {anova(model.null, model.1)[2, 'Pr(>Chisq)']}"))
+model.2 = lmer(score ~ same_big_family + (1|participant) + (1|sent_id), data=accuracy, REML=FALSE)
+print(glue("SAME_FAMILY ALONE, EFFECT: {fixef(model.2)['same_big_family_True']}, SIGNIFICANCE: {anova(model.null, model.2)[2, 'Pr(>Chisq)']}"))
+model.3 = lmer(score ~ same_big_family + sent_similarity + (1|participant) + (1|sent_id), data=accuracy, REML=FALSE)
+print(glue("ASPF ALONE vs. BOTH, SIGNIFICANCE: {anova(model.1, model.3)[2, 'Pr(>Chisq)']}"))
+print(glue("SAME_FAMILY ALONE vs. BOTH, SIGNIFICANCE: {anova(model.2, model.3)[2, 'Pr(>Chisq)']}"))
+
+print("CONCLUSION")
+print(glue("ASPF ALONE, EFFECT: {fixef(model.3)['sent_similarity']}"))
+```
+
+The following block corresponds to Table 3.4
+```{r, results="hold"}
+dataset_aspf = c(median(naturalness[(naturalness$source_lang == 'nl'), ]$phone_sim),
+                median(naturalness[(naturalness$source_lang == 'fi'), ]$phone_sim),
+                median(naturalness[(naturalness$source_lang == 'fr'), ]$phone_sim),
+                median(naturalness[(naturalness$source_lang == 'es'), ]$phone_sim),
+                median(naturalness[(naturalness$source_lang == 'ja'), ]$phone_sim))
+
+print("NATURALNESS")
+
+median_naturalness = c(median(naturalness[(naturalness$source_lang == 'nl'), ]$score),
+                      median(naturalness[(naturalness$source_lang == 'fi'), ]$score),
+                      median(naturalness[(naturalness$source_lang == 'fr'), ]$score),
+                      median(naturalness[(naturalness$source_lang == 'es'), ]$score),
+                      median(naturalness[(naturalness$source_lang == 'ja'), ]$score))
+
+cor.test(median_naturalness, dataset_aspf, method='spearman')
+
+print("ACCURACY")
+
+median_accuracy = c(median(accuracy[(accuracy$source_lang == 'nl'), ]$score),
+                      median(accuracy[(accuracy$source_lang == 'fi'), ]$score),
+                      median(accuracy[(accuracy$source_lang == 'fr'), ]$score),
+                      median(accuracy[(accuracy$source_lang == 'es'), ]$score),
+                      median(accuracy[(accuracy$source_lang == 'ja'), ]$score))
+
+cor.test(median_accuracy, dataset_aspf, method='spearman')
+```

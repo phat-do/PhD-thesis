@@ -1,0 +1,175 @@
+---
+title: "Chapter 2's analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Q1a (Section 2.3)
+
+Load the dataframe for Q1a into the environment. The data is already preprocessed in Excel from the raw data and saved as a .RData file for convenience.
+```{r}
+load("Q1a.RData")
+str(Q1a)
+```
+
+The following blocks correspond to the results in Table 2.3
+
+#### All metric groups
+```{r, results="hold"}
+# Median and IQR of MLDE in all metric groups
+cat(median(Q1a$MLDE), IQR(Q1a$MLDE))
+# Wilcoxon test for (median value > 0, i.e., there is an increase in qualilty)
+wilcox.test(Q1a$MLDE, mu = 0, alternative = "greater")
+```
+
+#### Acoustics group
+```{r, results="hold"}
+cat(median(Q1a[Q1a$Criterion=="Acoustics",]$MLDE), IQR(Q1a[Q1a$Criterion=="Acoustics",]$MLDE))
+wilcox.test(Q1a[Q1a$Criterion=="Acoustics",]$MLDE, mu = 0, alternative = "greater")
+```
+
+#### Intelligibility group
+```{r, results="hold"}
+cat(median(Q1a[Q1a$Criterion=="Intelligibility",]$MLDE), IQR(Q1a[Q1a$Criterion=="Intelligibility",]$MLDE))
+wilcox.test(Q1a[Q1a$Criterion=="Intelligibility",]$MLDE, mu = 0, alternative = "greater")
+```
+
+#### Naturalness/Quality group
+```{r, results="hold"}
+cat(median(Q1a[Q1a$Criterion=="Naturalness" | Q1a$Criterion == "Naturalness/overall quality",]$MLDE), IQR(Q1a[Q1a$Criterion=="Naturalness" | Q1a$Criterion == "Naturalness/overall quality",]$MLDE))
+wilcox.test(Q1a[Q1a$Criterion=="Naturalness" | Q1a$Criterion == "Naturalness/overall quality",]$MLDE, mu = 0, alternative = "greater")
+```
+
+#### Similarity group
+```{r, results="hold"}
+cat(median(Q1a[Q1a$Criterion=="Similarity",]$MLDE), IQR(Q1a[Q1a$Criterion=="Similarity",]$MLDE))
+wilcox.test(Q1a[Q1a$Criterion=="Similarity",]$MLDE, mu = 0, alternative = "greater")
+```
+
+The following block corresponds to the results in Table 2.4
+
+#### All metric groups
+```{r, results="hold", warning=FALSE}
+pairwise.wilcox.test(Q1a$MLDE, Q1a$Criterion, p.adjust.method = "BH")
+```
+
+
+# Q1b (Section 2.4)
+
+Load the dataframe for Q2a into the environment. It's basically the same dataframe from before, with a few added columns to aid the analysis (as explained in Section 2.4)
+```{r}
+load("Q1b.RData")
+str(Q1b)
+```
+
+The variable names are already changed (from the raw data) to match the ones used in the dissertation, but listed below for clarity. This is because the raw variable names were created early during data collection and may be rather ambiguous)
+```{r, eval=FALSE}
+Q1b <- Q1b %>%
+  rename(
+         "MLDE" = "Adjusted",
+         "tts.paradigm" = "Arch.",
+         "tgt.data" = "Target.data",
+         "tgt.data.ratio" = "Target.data.diff",
+         "balance.ratio" = "Data.rate",
+         "same.family.ratio" = "Same.family.ratio",
+         "study" = "Study")
+```
+
+Libraries
+```{r, message=FALSE}
+library("lmerTest")
+```
+
+#### Finding the final predictive model for MLDE (Section 2.4.2)
+```{r, results="hold", warning=FALSE, message=FALSE}
+
+model.test = lmer(MLDE ~ tts.paradigm + tgt.data.ratio + tgt.data + balance.ratio + 
+                    tts.paradigm:tgt.data.ratio + tts.paradigm:tgt.data  + tts.paradigm:balance.ratio + 
+                    tgt.data.ratio:tgt.data + tgt.data:balance.ratio +
+                    tgt.data:balance.ratio +
+                    (1|study), data=Q1b)
+step(model.test)
+```
+
+Testing `same.family.ratio`:
+```{r, results="hold", warning=FALSE, message=FALSE}
+
+# Try adding it in the final model above
+model.test = lmer(MLDE ~ tts.paradigm + tgt.data.ratio + tgt.data + balance.ratio + same.family.ratio + tts.paradigm:tgt.data.ratio + tts.paradigm:balance.ratio + (1|study), data=Q1b)
+summary(model.test)
+```
+
+```{r, results="hold", warning=FALSE, message=FALSE}
+# Or alone
+model1 = lmer(MLDE ~ same.family.ratio + (1|study), data=Q1b)
+model1.null = lmer(MLDE ~ 1 + (1|study), data=Q1b)
+anova(model1, model1.null)
+```
+
+#### Analysis of the final model (Section 2.4.3)
+```{r, results="hold", out.width=100}
+# set S2S as "default" for more convenience in analysis
+Q1b$tts.paradigm = relevel(Q1b$tts.paradigm, ref = "S2S") 
+
+# final model from above
+final.model = lmer(MLDE ~ tts.paradigm + tgt.data.ratio + balance.ratio + tts.paradigm:tgt.data.ratio + tts.paradigm:balance.ratio + tgt.data + (1|study), data=Q1b)
+summary(final.model)
+```
+
+The above results also shows the mean `MLDE` of `S2S` models is `33.56%` and that of `DNN` models is `-0.35%`. In other words, the effect of `tts.paradigm` (`DNN` and `S2S`) on `MLDE` is very large (`33.9` percentage points, pp), so the subsequent analysis is done separately for the two paradigms (as explained in 2.4.3) for more readability. The values are obtained (copied and calculated where relevant) from the above results, just displayed separately.
+
+#### For DNN models
+
+The following values correspond to Table 2.7:
+```{r, eval=FALSE}
+                                Estimate Std. Error        df t value Pr(>|t|)
+(Intercept)                     -0.34622    9.70057 18.871480  -3.495 0.002442
+tgt.data.ratio                   0.02226    0.12178 116.40346  -3.664 0.000375
+balance.ratio                    0.65668    0.44376 51.934680   2.657 0.010453
+tgt.data                        -0.06400    0.02698 103.20333  -2.372 0.019541
+```
+
+#### For S2S models
+
+The following values correspond to Table 2.8:
+```{r, eval=FALSE}
+                                Estimate Std. Error        df t value Pr(>|t|)
+(Intercept)                     33.55767    7.63690  22.53910   4.394 0.000219
+tgt.data.ratio                   0.46851    0.10596 108.66321   4.422 2.33e-05
+balance.ratio                   -0.52233    0.26587  62.38367  -1.965 0.053913
+tgt.data                        -0.06400    0.02698 103.20333  -2.372 0.019541
+```
+
+The $\beta$ values in Table 2.7 and 2.8 were obtained as follows:
+```{r, results="hold"}
+lm.beta.lmer <- function(mod) {
+  b <- fixef(mod)[-1]
+  sd.x <- apply(getME(mod,"X")[,-1],2,sd)
+  sd.y <- sd(getME(mod,"y"))
+  b*sd.x/sd.y
+}
+
+lm.beta.lmer(final.model)
+```
+
+# Foundations (Section 2.5)
+
+The comparison between the two approaches "multilingual models" and "transfer learning" was done as follows:
+```{r}
+
+# helper dictionary (through checking manually)
+dict <- c(
+  A = "transfer", B = "multi", C = "multi", D = "multi", E = "transfer", F = "transfer",
+  G = "multi", H = "multi", I = "transfer", J = "transfer", K = "multi", L = "multi",
+  M = "multi", N = "multi", O = "transfer", P = "multi", Q = "transfer", R = "transfer",
+  S = "transfer", T = "transfer", U = "transfer", W = "transfer"
+)
+
+Q1b$approach <- dict[Q1b$study]
+approach.model = lmer(MLDE ~ approach + (1|study), data=Q1b)
+summary(approach.model)
+```
+

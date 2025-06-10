@@ -1,0 +1,67 @@
+---
+title: "Chapter 5's analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, message=FALSE}
+library("dplyr")
+library("glue")
+library("ggpubr")
+library("lmerTest")
+```
+
+# Q2b and Q5ab (Section 5.4.1 and 5.4.2)
+
+Load the dataframe for Q2b into the environment. The data comes from other processes/calculations and is already combined into the provided `.csv` files.
+```{r}
+data = read.csv("chapter5_data.csv")
+
+# preprocess and subset the data a bit
+data$input <- factor(data$input, levels = c("phone", "feature"))
+data$dict <- factor(data$dict, levels = c("real", "g2p", "phonerec"))
+cer = subset(data, metric == 'cer')
+mos = subset(data, metric == 'mos')
+```
+
+The following block corresponds to the results in Table 5.2
+
+```{r, results="hold", message=FALSE}
+print("CER")
+
+model.null <- lmer('value ~ 1 + (1+dict+input|filename)', data=cer, REML=FALSE)
+model.dict <- lmer('value ~ dict + (1+dict+input|filename)', data=cer, REML=FALSE)
+model.input <- lmer('value ~ input + (1+dict+input|filename)', data=cer, REML=FALSE)
+model.both <- lmer('value ~ dict + input + (1+dict+input|filename)', data=cer, REML=FALSE)
+model.full <- lmer('value ~ dict*input + (1+dict+input|filename)', data=cer, REML=FALSE)
+
+print(glue("DICT ONLY, SIGNIFICANCE: {anova(model.null, model.dict)[2, 'Pr(>Chisq)']}"))
+print(glue("INPUT ONLY, SIGNIFICANCE: {anova(model.null, model.input)[2, 'Pr(>Chisq)']}"))
+print(glue("DICT + INPUT, SIGNIFICANCE: {anova(model.dict, model.both)[2, 'Pr(>Chisq)']}"))
+print(glue("DICT * INPUT, SIGNIFICANCE: {anova(model.both, model.full)[2, 'Pr(>Chisq)']}"))
+
+print(summary(model.full))
+```
+
+```{r, results="hold", warning=FALSE, message=FALSE}
+print("MOS")
+
+model.null <- lmer('value ~ 1 + (1+dict+input|filename)', data=mos, REML=FALSE)
+model.dict <- lmer('value ~ dict + (1+dict+input|filename)', data=mos, REML=FALSE)
+model.input <- lmer('value ~ input + (1+dict+input|filename)', data=mos, REML=FALSE)
+model.both <- lmer('value ~ dict + input + (1+dict+input|filename)', data=mos, REML=FALSE)
+model.full <- lmer('value ~ dict*input + (1+dict+input|filename)', data=mos, REML=FALSE)
+
+print(glue("DICT ONLY, SIGNIFICANCE: {anova(model.null, model.dict)[2, 'Pr(>Chisq)']}"))
+print(glue("INPUT ONLY, SIGNIFICANCE: {anova(model.null, model.input)[2, 'Pr(>Chisq)']}"))
+print(glue("DICT + INPUT, SIGNIFICANCE: {anova(model.dict, model.both)[2, 'Pr(>Chisq)']}"))
+print(glue("DICT * INPUT, SIGNIFICANCE: {anova(model.both, model.full)[2, 'Pr(>Chisq)']}"))
+
+print(summary(model.full))
+```
+
+Please see the other analysis for the Tukey test' results.
