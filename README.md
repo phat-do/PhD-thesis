@@ -13,6 +13,7 @@ The repo is structured as follows:
 - `systematic_review`: the metadata used for the meta-analysis in **Chapter 2**.
 - `mapping_aspf`: the scripts for phone mapping and ASPF calculation as mentioned in **Chapters 3 and 6**.
 - `phono_features`: the script for preprocessing and converting the phone labels into phonological features as mentioned in **Chapters 5 and 6**.
+- `analyses`: the scripts used for relevants statistical analyses in the chapters.
 
 For the experiments regarding phone labels vs. phonological features input, there are two branches---`phone_labels` and `phono_features`---with corresponding changes in `FastSpeech2`.
 
